@@ -15,6 +15,9 @@ class GPTClient:
         # デフォルトモデルを設定
         self.model = config["openai"]["model"]
 
+        # temperatureを設定
+        self.temperature = config["openai"]["temperature"]
+
         # ログファイルのパスを設定
         self.log_data = config["openai"]["log_folder"] + \
             config["openai"]["log_file"]
@@ -32,6 +35,7 @@ class GPTClient:
                 model = model or self.model
                 stream = client.chat.completions.create(
                     model=model,
+                    temperature=self.temperature,
                     messages=messages,
                     stream=True
                 )

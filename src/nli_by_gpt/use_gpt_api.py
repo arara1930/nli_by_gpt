@@ -15,15 +15,17 @@ def read_file(config_path: str):
     with open(input_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+    # 前提文と仮定文のkeyを指定
+    key_s1 = 'sentence_1'
+    key_s2 = 'sentence_2'
+
     # jsonlの場合
 
-    return data
+    return data, key_s1, key_s2
 
 
 def make_prompt(s1: str, s2: str):
     prompt = (
-        f"#ロール#\n"
-        f"あなたは含意関係認識が得意な大学教授です。\n"
         f"#指示#\n"
         f"#前提文#に対する#仮定文#の含意関係が、「entailment（含意）」「contradiction（矛盾）」「neutral（中立）」のどれであるか、以下に示す#定義#を参考に判定せよ。また判定の際、「書かれていない情報」を根拠にしないように注意せよ。\n"
         f"また、答えは#判定#だけを出力してください。\n"
@@ -45,13 +47,16 @@ def main():
     config_path = "config.yaml"
     client = GPTClient(config_path)
 
-    data = read_file(config_path)
+    data, key_s1, key_s2 = read_file(config_path)
 
     # ユーザーの入力
-    user_input = make_prompt(data[0]['sentence_1'], data[0]['sentence_2'])
+    user_input = make_prompt(data[0][key_s1], data[0][key_s2])
 
     # メッセージを送信
-    messages = [{"role": "user", "content": user_input}]
+    messages = [
+        {"role": "system", "content": "あなたは含意関係認識が得意な大学教授です。"},
+        {"role": "user", "content": user_input}
+    ]
     try:
         response = client.generate_completion(messages)
         print("AIの応答:")
