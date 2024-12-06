@@ -1,7 +1,7 @@
 from gpt_client import GPTClient
 from response_to_resultJson import ProcessResponse
 from make_file_path import MakeFilePath
-import read_file
+from read_file import ReadFile
 import json
 from tqdm import tqdm
 
@@ -67,10 +67,10 @@ def main():
     config_path = "../logAndResult/gpt-o1-preview/part1/withdeep/config.yaml"
     client = GPTClient(config_path)
 
-    datas, key_id, key_s1, key_s2, key_true_label = read_file.read_jsonFile(
-        config_path)
+    read_file = ReadFile(config_path)
+    datas, key_id, key_s1, key_s2, key_true_label = read_file.read_jsonFile()
 
-    config = read_file.read_configFile(config_path=config_path)
+    config = read_file.get_config()
     # deep_or_no_deep_flagフラグの格納
     deep_or_no_deep_flag = config['openai']['deep_or_no_deep_flag']
 
