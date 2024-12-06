@@ -68,7 +68,7 @@ def main():
     client = GPTClient(config_path)
 
     read_file = ReadFile(config_path)
-    datas, key_id, key_s1, key_s2, key_true_label = read_file.read_jsonFile()
+    datas, key_id, key_s1, key_s2, key_true_label = read_file.get_jsonFile_keys()
 
     config = read_file.get_config()
     # deep_or_no_deep_flagフラグの格納
