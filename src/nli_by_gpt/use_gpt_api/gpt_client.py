@@ -39,7 +39,7 @@ class GPTClient:
                 model = model or self.model
                 stream = client.chat.completions.create(
                     model=model,
-                    temperature=self.temperature,
+                    # temperature=self.temperature,  # o1を使う時はコメントアウト
                     messages=messages,
                     stream=True
                 )

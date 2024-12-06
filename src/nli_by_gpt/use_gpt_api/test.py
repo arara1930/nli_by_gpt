@@ -52,7 +52,7 @@ def main():
     config_path = "../config.yaml"
     client = GPTClient(config_path)
 
-    datas, key_id, key_s1, key_s2, key_true_label = read_file.read_file(
+    datas, key_id, key_s1, key_s2, key_true_label = read_file.read_jsonFile(
         config_path)
 
     user_input = make_prompt(datas[0][key_s1], datas[0][key_s2])

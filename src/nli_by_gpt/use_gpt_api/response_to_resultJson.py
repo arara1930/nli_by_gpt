@@ -50,10 +50,14 @@ class ProcessResponse:
                          "pred_label": pred_label}
         return result_record
 
+    def return_label_only(self):
+        pred_label = self.response_to_predLabel()
+        return pred_label
+
 
 def main():
     config_path = "config.yaml"
-    datas, key_id, key_s1, key_s2, key_true_label = read_file.read_file(
+    datas, key_id, key_s1, key_s2, key_true_label = read_file.read_jsonFile(
         config_path)
     response = '（含意）'
     processresponse = ProcessResponse(
