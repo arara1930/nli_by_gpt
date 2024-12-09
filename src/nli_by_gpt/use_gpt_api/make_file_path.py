@@ -26,6 +26,26 @@ class MakeFilePath:
         self.outputFile_nodeep_path_for_analysis = config["analysis"]['nodeep']["log_folder"] + \
             config["analysis"]['nodeep']["output"]
 
+        # combined.jsonのパスを指定
+        self.combined_json_path_for_analysis = config["analysis"]['analysis_path']["log_folder"] + \
+            config["analysis"]['analysis_path']["combined"]
+
+        # both_true.jsonのパスを指定
+        self.both_true_path_for_analysis = config["analysis"]['analysis_path']["log_folder"] + \
+            config["analysis"]['analysis_path']["both_true"]
+
+        # both_false.jsonのパスを指定
+        self.both_false_path_for_analysis = config["analysis"]['analysis_path']["log_folder"] + \
+            config["analysis"]['analysis_path']["both_false"]
+
+        # withdeep_only_true.jsonのパスを指定
+        self.withdeep_only_true_path_for_analysis = config["analysis"]['analysis_path']["log_folder"] + \
+            config["analysis"]['analysis_path']["withdeep_only_true"]
+
+        # nodeep_only_true.jsonのパスを指定
+        self.nodeep_only_true_path_for_analysis = config["analysis"]['analysis_path']["log_folder"] + \
+            config["analysis"]['analysis_path']["nodeep_only_true"]
+
     def make_outputFile_path(self):
         return self.outputFile_path
 
@@ -40,3 +60,18 @@ class MakeFilePath:
 
     def make_outputFile_nodeep_path_for_analysis(self):
         return self.outputFile_nodeep_path_for_analysis
+
+    def make_combined_json_path_for_analysis(self):
+        return self.combined_json_path_for_analysis
+
+    def make_both_true_path_for_analysis(self):
+        return self.both_true_path_for_analysis
+
+    def make_both_false_path_for_analysis(self):
+        return self.both_false_path_for_analysis
+
+    def make_withdeep_only_true_path_for_analysis(self):
+        return self.withdeep_only_true_path_for_analysis
+
+    def make_nodeep_only_true_path_for_analysis(self):
+        return self.nodeep_only_true_path_for_analysis
