@@ -30,6 +30,7 @@ class GPTClient:
         """
         メッセージを送信してAIの応答を取得
         """
+        log_list = []  # データそれぞれに対するログを格納
         success = False  # 成功したかどうかのフラグ
         while not success:  # 成功するまでループ
             try:
@@ -39,7 +40,7 @@ class GPTClient:
                 model = model or self.model
                 stream = client.chat.completions.create(
                     model=model,
-                    # temperature=self.temperature,  # o1を使う時はコメントアウト
+                    temperature=self.temperature,  # o1を使う時はコメントアウト
                     messages=messages,
                     stream=True
                 )
@@ -47,17 +48,17 @@ class GPTClient:
                     if chunk.choices[0].delta.content is not None:
                         response_list .append(chunk.choices[0].delta.content)
                 response = ''.join(response_list)
-
+                log_list.append(response)
                 # もし上記の処理が成功したら、successフラグをTrueに変更
                 success = True
 
-                with open(self.res_log_data, 'a') as f:
-                    print(response, file=f)
+                # with open(self.res_log_data, 'a') as f:
+                #     print(response, file=f)
 
-                with open(self.res_label_log_file, 'a') as f:
-                    print(response, file=f)
+                # with open(self.res_label_log_file, 'a') as f:
+                #     print(response, file=f)
 
-                return response
+                return response, log_list
             except Exception as e:
                 with open(self.res_log_data, 'a') as f:
                     print(f"An error occurred: {e}", file=f)

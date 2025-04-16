@@ -1,0 +1,2102 @@
+[
+    {
+        "sentence_pair_id": "57",
+        "sentence_1": "バットを肩の後ろに構えたバッターが<主格>います。<述語動詞>",
+        "sentence_2": "バットを振り下ろしたバッターが<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "58",
+        "sentence_1": "グローブを肩の後ろに構えたキャッチャーが<主格>います。<述語動詞>",
+        "sentence_2": "バットを肩の後ろに構えたバッターが<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "104",
+        "sentence_1": "黄色い建物が<主格>道路わきに<場所格>たてられています。<述語動詞>",
+        "sentence_2": "茶色い建物が<主格>道路わきに<場所格>たてられています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "105",
+        "sentence_1": "ピンク色の建物が<主格>道路わきに<場所格>たてられています。<述語動詞>",
+        "sentence_2": "茶色い建物が<主格>道路わきに<場所格>たてられています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "138",
+        "sentence_1": "女の子の前に<時間格>３枚のトーストが<主格>置いてあります。<述語動詞>",
+        "sentence_2": "男の子の前に<時間格>３枚のトーストが<主格>置いてあります。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "140",
+        "sentence_1": "男の子の前に<時間格>３枚のトーストが<主格>置いてあります。<述語動詞>",
+        "sentence_2": "女の子の前に<時間格>３枚のトーストが<主格>置いてあります。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "157",
+        "sentence_1": "海で<場所格>サーファーが<主格>波に<対象格>乗っています。<述語動詞>",
+        "sentence_2": "海で<場所格>サーファーが<主格>波を<対象格>待っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "159",
+        "sentence_1": "海で<場所格>サーファーが<主格>波を<対象格>待っています。<述語動詞>",
+        "sentence_2": "海で<場所格>サーファーが<主格>波に<対象格>乗っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "191",
+        "sentence_1": "踏み切りの中を車が通行しているところです。<述語動詞>",
+        "sentence_2": "踏み切りの中を乳母車が通行しているところなんです。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "192",
+        "sentence_1": "踏み切りの中を車が通行しているところです。<述語動詞>",
+        "sentence_2": "踏み切りの中をお年寄りが通行しているところです。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "193",
+        "sentence_1": "踏み切りの中を自転車が通行しているところです。<述語動詞>",
+        "sentence_2": "踏み切りの中を車が通行しているところです。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "195",
+        "sentence_1": "踏み切りの中をお年寄りが通行しているところです。<述語動詞>",
+        "sentence_2": "踏み切りの中を車が通行しているところです。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "207",
+        "sentence_1": "石の上に置いてある2台の<数量格>携帯電話。<述語動詞>",
+        "sentence_2": "机の上に置いてある1台の<数量格>お皿。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "235",
+        "sentence_1": "キリンが、<主格>木の下で<場所格>ちんこを<対象格>出しています。<述語動詞>",
+        "sentence_2": "キリンが、<主格>木の下で<場所格>舌を<対象格>出しています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "244",
+        "sentence_1": "１匹のキリンが<主格>木の葉を<対象格>食べています。<述語動詞>",
+        "sentence_2": "象が<主格>水を<対象格>飲んでいます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "267",
+        "sentence_1": "公園に<場所格>二頭のやぎが<主格>いる。<述語動詞>",
+        "sentence_2": "公園の樹木のそばに<場所格>二頭の羊が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "275",
+        "sentence_1": "よく晴れた夕暮れの海岸で遊んでいる人が<主格>います。<述語動詞>",
+        "sentence_2": "よく晴れた夕暮れの土手で遊んでいる人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "278",
+        "sentence_1": "よく晴れた夕暮れの土手で遊んでいる人が<主格>います。<述語動詞>",
+        "sentence_2": "よく晴れた夕暮れの海岸で遊んでいる人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "285",
+        "sentence_1": "台所の冷蔵庫の中に<場所格>人が<主格>います。<述語動詞>",
+        "sentence_2": "台所の冷蔵庫やレンジの前の調理台の傍に<場所格>人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "288",
+        "sentence_1": "オレンジ色の服を着た人が、<主格>テニスラケットを<対象格>持っています。<述語動詞>",
+        "sentence_2": "ブルーの服を着た人が、<主格>テニスラケットを<対象格>持っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "292",
+        "sentence_1": "ブルーの服を着た人が、<主格>テニスラケットを<対象格>持っています。<述語動詞>",
+        "sentence_2": "オレンジ色の服を着た人が、<主格>テニスラケットを<対象格>持っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "364",
+        "sentence_1": "箱の中に<対象格>パンが<主格>並んでいます。<述語動詞>",
+        "sentence_2": "箱の中に<対象格>ドーナツが<主格>並んでいます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "370",
+        "sentence_1": "雪が積もっている中に<対象格>赤い消火栓が<主格>あります。<述語動詞>",
+        "sentence_2": "雪の中に<対象格>赤い消火栓が<主格>埋もれています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "383",
+        "sentence_1": "海辺の砂浜を<対象格>一羽の鳥が<主格>歩いています。<述語動詞>",
+        "sentence_2": "海辺を<対象格>男女が<主格>歩いている。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "384",
+        "sentence_1": "海辺の砂浜を<対象格>一羽の鳥が<主格>歩いています。<述語動詞>",
+        "sentence_2": "海辺を<対象格>鳥が<主格>走っている。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "512",
+        "sentence_1": "広場でバットを持っている人が<主格>います。<述語動詞>",
+        "sentence_2": "広場でラケットを持って遊んでいる人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "513",
+        "sentence_1": "広場でラケットを持って遊んでいる人が<主格>います。<述語動詞>",
+        "sentence_2": "広場でバットを持っている人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "601",
+        "sentence_1": "歩道で、フルーツを販売してる人達が<主格>います。<述語動詞>",
+        "sentence_2": "歩道で、野菜を販売してる人達が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "603",
+        "sentence_1": "ごみの散乱した路上で、果物を売っている人たちが<主格>います。<述語動詞>",
+        "sentence_2": "畑で果物を収穫している人たちが<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "655",
+        "sentence_1": "サングラスをした中年の女性が、<主格>ドーナツと飲み物を<対象格>持っています。<述語動詞>",
+        "sentence_2": "サングラスをかけた女性が<主格>パンを<対象格>ほおばっています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "c",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "668",
+        "sentence_1": "たくさんの人が<主格>凧を<対象格>見上げています。<述語動詞>",
+        "sentence_2": "一人が<主格>凧を<対象格>見上げている。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "728",
+        "sentence_1": "椅子の背もたれに<対象格>太陽電池のパネルが<主格>取り付けられています。<述語動詞>",
+        "sentence_2": "机に<対象格>太陽電池のパネルが<主格>取り付けられています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "730",
+        "sentence_1": "机に<対象格>太陽電池のパネルが<主格>取り付けられています。<述語動詞>",
+        "sentence_2": "椅子の背もたれに<対象格>太陽電池のパネルが<主格>取り付けられています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "815",
+        "sentence_1": "バナナの木に<対象格>黄色い鳥が<主格>止まっています。<述語動詞>",
+        "sentence_2": "みかんの木に<対象格>黄色い鳥が<主格>止まっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "817",
+        "sentence_1": "みかんの木に<対象格>黄色い鳥が<主格>止まっています。<述語動詞>",
+        "sentence_2": "バナナの木に<対象格>黄色い鳥が<主格>止まっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "818",
+        "sentence_1": "バナナの木に<対象格>青い鳥が<主格>止まっています。<述語動詞>",
+        "sentence_2": "バナナの木に<対象格>黄色い鳥が<主格>止まっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "863",
+        "sentence_1": "草地の中に<場所格>消火栓が<主格>設置されています。<受動態>",
+        "sentence_2": "道路脇に<場所格>消火栓が<主格>設置されています。<受動態>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "878",
+        "sentence_1": "空港で、<場所格>１機の飛行機の整備をしています。<述語動詞>",
+        "sentence_2": "ガレージで、<場所格>１台の自動車の整備をしています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "879",
+        "sentence_1": "空港で、<場所格>１機の飛行機の整備をしています。<述語動詞>",
+        "sentence_2": "空港で、<場所格>１機のヘリコプターの整備をしています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "882",
+        "sentence_1": "空港で、<場所格>１機のヘリコプターの整備をしています。<述語動詞>",
+        "sentence_2": "空港で、<場所格>１機の飛行機の整備をしています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "905",
+        "sentence_1": "洗面所にバッグを持った女の子がいます。<述語動詞>",
+        "sentence_2": "洗面所にバッグを持たない女の子がいない。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "e",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "937",
+        "sentence_1": "スキーで雪山を滑っている人が<主格>います。<述語動詞>",
+        "sentence_2": "スキーで火山を滑っている人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "940",
+        "sentence_1": "スキーで火山を滑っている人が<主格>います。<述語動詞>",
+        "sentence_2": "スキーで雪山を滑っている人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1013",
+        "sentence_1": "店頭に置かれた木製の台の上に<場所格>野菜が<主格>積まれています。<受動態>",
+        "sentence_2": "店頭に置かれた木製の台の上に<場所格>果物が<主格>積まれています。<受動態>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1072",
+        "sentence_1": "ネクタイを締める男性やヘッドホンをした男性、物を運ぶ女性などが<主格>集まっています。<述語動詞>",
+        "sentence_2": "ネクタイを締める女性やヘッドホンをした女性、物を運ぶ男性などが<主格>集まっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1075",
+        "sentence_1": "ネクタイを締める女性やヘッドホンをした女性、物を運ぶ男性などが<主格>集まっています。<述語動詞>",
+        "sentence_2": "ネクタイを締める男性やヘッドホンをした男性、物を運ぶ女性などが<主格>集まっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1116",
+        "sentence_1": "黒い人形の横に<場所格>おもちゃが<主格>置かれています。<受動態>",
+        "sentence_2": "黒い人形の横に<場所格>食べ物と飲み物が<主格>置かれています。<受動態>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1136",
+        "sentence_1": "寝室に<場所格>ソファーが<主格>あります。<述語動詞>",
+        "sentence_2": "とても広いリビングの真ん中に<場所格>ソファーが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1159",
+        "sentence_1": "動物が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "sentence_2": "傘　が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1160",
+        "sentence_1": "動物が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "sentence_2": "帽子　が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1161",
+        "sentence_1": "動物が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "sentence_2": "人　が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1163",
+        "sentence_1": "帽子　が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "sentence_2": "動物が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1195",
+        "sentence_1": "二人組みの男性が<主格>台車を押しながら路上を<対象格>歩いています。<述語動詞>",
+        "sentence_2": "物を積み上げた荷台を押している2人の男性が<主格>道の真ん中を<対象格>歩いています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1296",
+        "sentence_1": "フローリングの床に落ちている草を<対象格>猫が<主格>食べています。<述語動詞>",
+        "sentence_2": "猫が<主格>床の緑色の物を<対象格>なめています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1321",
+        "sentence_1": "スキーヤーが<主格>斜面を<対象格>滑っています。<述語動詞>",
+        "sentence_2": "雪道を<対象格>スキーヤーが<主格>滑っています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1339",
+        "sentence_1": "赤いスキーウェアを着た人が<主格>スキーを<対象格>しています。<述語動詞>",
+        "sentence_2": "黒いスキーウェアを着た人が<主格>スキーを<対象格>しています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1340",
+        "sentence_1": "青いスキーウェアを着た人が<主格>スキーを<対象格>しています。<述語動詞>",
+        "sentence_2": "黒いスキーウェアを着た人が<主格>スキーを<対象格>しています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1450",
+        "sentence_1": "シャッターのまえに<対象格>ひとが<主格>すわっています。<述語動詞>",
+        "sentence_2": "シャッターのまえに<対象格>犬が<主格>すわっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1451",
+        "sentence_1": "シャッターのまえに<対象格>ひとが<主格>すわっています。<述語動詞>",
+        "sentence_2": "シャッターのまえに<対象格>猫が<主格>すわっています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1490",
+        "sentence_1": "公園のベンチの前に<場所格>時計が<主格>立っています。<述語動詞>",
+        "sentence_2": "公園のベンチの前に<場所格>男の子が<主格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1491",
+        "sentence_1": "公園のベンチの前に<場所格>時計が<主格>立っています。<述語動詞>",
+        "sentence_2": "公園のベンチの前に<場所格>女性が<主格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1493",
+        "sentence_1": "公園のベンチの前に<場所格>男の子が<主格>立っています。<述語動詞>",
+        "sentence_2": "公園のベンチの前に<場所格>時計が<主格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1494",
+        "sentence_1": "公園のベンチの前に<場所格>女性が<主格>立っています。<述語動詞>",
+        "sentence_2": "公園のベンチの前に<場所格>時計が<主格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1495",
+        "sentence_1": "公園のトイレの前に<場所格>時計が<主格>立っています。<述語動詞>",
+        "sentence_2": "公園のベンチの前に<場所格>時計が<主格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1518",
+        "sentence_1": "赤いウェアのスキーヤーが<主格>見晴らしの良い場所で<場所格>立っています。<述語動詞>",
+        "sentence_2": "スキーを履いた人が<主格>雪の上へ<場所格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1585",
+        "sentence_1": "カバンを持ったひとが<主格>雪の上に<対象格>座っています。<述語動詞>",
+        "sentence_2": "ゴーグルをしたひとが<主格>雪のうえに<対象格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1594",
+        "sentence_1": "草原の木立の中に<場所格>キリンが<主格>二頭<数量格>います。<述語動詞>",
+        "sentence_2": "草原の木立の中に<場所格>シマウマが<主格>二頭<数量格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1595",
+        "sentence_1": "草原の木立の中に<場所格>キリンが<主格>二頭<数量格>います。<述語動詞>",
+        "sentence_2": "草原の木立の中に<場所格>バッファローが<主格>二頭<数量格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1598",
+        "sentence_1": "草原の木立の中に<場所格>シマウマが<主格>二頭<数量格>います。<述語動詞>",
+        "sentence_2": "草原の木立の中に<場所格>キリンが<主格>二頭<数量格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1605",
+        "sentence_1": "車のミラーに<対象格>運転手が<主格>写っています。<述語動詞>",
+        "sentence_2": "バイクのミラーに<対象格>運転手が<主格>写っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1606",
+        "sentence_1": "バイクのミラーに<対象格>運転手が<主格>写っています。<述語動詞>",
+        "sentence_2": "車のミラーに<対象格>運転手が<主格>写っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1609",
+        "sentence_1": "白熊が<主格>池の水に<場所格>飛び込もうとしています。<述語動詞>",
+        "sentence_2": "水際に<場所格>一頭の白熊が<主格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1628",
+        "sentence_1": "タイルの壁に<場所格>歯ブラシが<主格>ぶら下げられています。<述語動詞>",
+        "sentence_2": "壁のフックには<場所格>歯ブラシが<主格>かけられています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1674",
+        "sentence_1": "オリーブなどを乗せた焼かれたお好み焼きが<主格>あります。<述語動詞>",
+        "sentence_2": "オリーブなどを乗せた焼かれたピザが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1675",
+        "sentence_1": "オリーブなどを乗せた焼かれたたこ焼きが<主格>あります。<述語動詞>",
+        "sentence_2": "オリーブなどを乗せた焼かれたピザが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1677",
+        "sentence_1": "オリーブなどを乗せた焼かれた楽天が<主格>あります。<述語動詞>",
+        "sentence_2": "オリーブなどを乗せた焼かれたピザが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1728",
+        "sentence_1": "ダイニングで食事をする男性がいます。<述語動詞>",
+        "sentence_2": "男性が食べ物を食べているところです。<述語動詞>",
+        "true_label": "entailment",
+        "pred_pattern": [
+            "e",
+            "n",
+            "e"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1754",
+        "sentence_1": "猫が<主格>扉の下の隙間から<起点格>おしりを<対象格>出しています。<述語動詞>",
+        "sentence_2": "猫が<主格>扉の下の隙間から<起点格>顔を<対象格>出しています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1776",
+        "sentence_1": "金色のトレイに<対象格>ケーキが<主格>置かれています。<受動態>",
+        "sentence_2": "金色のトレイに<対象格>果物が<主格>置かれている。<受動態>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1778",
+        "sentence_1": "トレイの上に<対象格>ケーキが<主格>乗っています。<述語動詞>",
+        "sentence_2": "トレイの上に<対象格>書類が<主格>乗っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1780",
+        "sentence_1": "金色のトレイに<対象格>果物が<主格>置かれている。<受動態>",
+        "sentence_2": "金色のトレイに<対象格>ケーキが<主格>置かれています。<受動態>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1782",
+        "sentence_1": "トレイの上に<対象格>書類が<主格>乗っています。<述語動詞>",
+        "sentence_2": "トレイの上に<対象格>ケーキが<主格>乗っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1785",
+        "sentence_1": "パソコンを置いているデスクの上に<受け手格>足を<対象格>載せています。<述語動詞>",
+        "sentence_2": "パソコンを置いているデスクの上に<受け手格>手を<対象格>載せています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1786",
+        "sentence_1": "パソコンを置いているデスクの上に<受け手格>足を<対象格>載せています。<述語動詞>",
+        "sentence_2": "パソコンを置いているデスクの上に<受け手格>肘を<対象格>載せています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1787",
+        "sentence_1": "パソコンを置いているデスクの上に<受け手格>手を<対象格>載せています。<述語動詞>",
+        "sentence_2": "パソコンを置いているデスクの上に<受け手格>足を<対象格>載せています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1788",
+        "sentence_1": "パソコンを置いているデスクの上に<受け手格>肘を<対象格>載せています。<述語動詞>",
+        "sentence_2": "パソコンを置いているデスクの上に<受け手格>足を<対象格>載せています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1884",
+        "sentence_1": "針葉樹の枝の上で小さい鳥が<主格>鳴いています。<述語動詞>",
+        "sentence_2": "針葉樹の枝の上で小さい鳥が<主格>目をつむって寝ています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1948",
+        "sentence_1": "スタジアムで<場所格>野球の試合が行われています。<受動態>",
+        "sentence_2": "スタジアムで<場所格>陸上競技が行われています。<受動態>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1959",
+        "sentence_1": "タイヤのパンクした赤い車の下に<場所格>白い猫が<主格>立っています。<述語動詞>",
+        "sentence_2": "タイヤのパンクした赤い車の下に<場所格>白い猫が<主格>座っています。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1977",
+        "sentence_1": "ターミナルに<場所格>白いバスが<主格>停車しています。<述語動詞>",
+        "sentence_2": "停留所に<場所格>一台のバスが<主格>停まっています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2093",
+        "sentence_1": "赤い傘を差した女性の集団が<主格>います。<述語動詞>",
+        "sentence_2": "黄色い帽子をかぶった子供の集団が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2094",
+        "sentence_1": "赤い傘を差した女性の集団が<主格>います。<述語動詞>",
+        "sentence_2": "青い靴を履いた男性の集団が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2095",
+        "sentence_1": "赤い傘を差した女性の集団が<主格>います。<述語動詞>",
+        "sentence_2": "緑のブローチをした子供の集団が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2097",
+        "sentence_1": "黄色い帽子をかぶった子供の集団が<主格>います。<述語動詞>",
+        "sentence_2": "赤い傘を差した女性の集団が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2111",
+        "sentence_1": "赤い椅子に乗った犬が<主格>ランプを<対象格>眺めています。<述語動詞>",
+        "sentence_2": "白の犬が<主格>赤いチェアーに<対象格>乗っています。<述語動詞>",
+        "true_label": "neutral",
+        "pred_pattern": [
+            "n",
+            "e",
+            "n"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment",
+        "key_ensembled_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2162",
+        "sentence_1": "キッチンの台に<場所格>シルバーのトースターがあります。<述語動詞>",
+        "sentence_2": "キッチンの台に<場所格>シルバーの冷蔵庫があります。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2242",
+        "sentence_1": "海で水上スキーを履いてロープに掴まっている船が<主格>あります。<述語動詞>",
+        "sentence_2": "海で水上スキーを履いてロープに掴まっている男性が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2289",
+        "sentence_1": "サギが<主格>大きく翼を<対象格>広げ、<述語動詞>クルーザーの浮かぶ湖で、<場所格>飛んでいます。<述語動詞>",
+        "sentence_2": "カモメが<主格>大きく翼を<対象格>広げ、<述語動詞>大型タンカーの浮かぶ海で、<場所格>飛んでいます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2333",
+        "sentence_1": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "青空の中を<対象格>気球が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2334",
+        "sentence_1": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "雲の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2335",
+        "sentence_1": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "青空の中を<対象格>鳥が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2337",
+        "sentence_1": "青空の中を<対象格>気球が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2338",
+        "sentence_1": "雲の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2339",
+        "sentence_1": "青空の中を<対象格>鳥が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2343",
+        "sentence_1": "角が生えた白い牛が<主格>横を<対象格>向いています。<述語動詞>",
+        "sentence_2": "羊が<主格>草を<対象格>食べている。<述語動詞>",
+        "true_label": "contradiction",
+        "pred_pattern": [
+            "c",
+            "n",
+            "c"
+        ],
+        "error_pattern": [
+            "t",
+            "f",
+            "t"
+        ],
+        "error_pred_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral",
+        "key_ensembled_pred": "contradiction"
+    }
+]

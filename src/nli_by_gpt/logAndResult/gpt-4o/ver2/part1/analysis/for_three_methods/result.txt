@@ -1,0 +1,24 @@
+../logAndResult/gpt-4o/ver2/part1/analysis/for_three_methods/all_true.json
+[[ 509    0    0]
+ [   0  292    0]
+ [   0    0 1030]]
+../logAndResult/gpt-4o/ver2/part1/analysis/for_three_methods/all_false.json
+[[  0   7  69]
+ [  9   0  13]
+ [ 34 115   0]]
+../logAndResult/gpt-4o/ver2/part1/analysis/for_three_methods/withdeep_only_true.json
+[[ 0  2 38]
+ [ 1  0  8]
+ [ 3 32  0]]
+../logAndResult/gpt-4o/ver2/part1/analysis/for_three_methods/withdeep_ensemble_true.json
+[[ 0  1 93]
+ [ 0  0  1]
+ [ 1  9  0]]
+../logAndResult/gpt-4o/ver2/part1/analysis/for_three_methods/nodeep_only_true.json
+[[ 0  1  5]
+ [ 0  0  6]
+ [ 8 20  0]]
+../logAndResult/gpt-4o/ver2/part1/analysis/for_three_methods/nodeep_ensemble_true.json
+[[ 0  0  9]
+ [ 4  0 19]
+ [40 55  0]]

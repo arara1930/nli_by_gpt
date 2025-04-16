@@ -3,12 +3,13 @@ from read_file import ReadFile
 
 
 class ProcessResponse:
-    def __init__(self, response: str, sentence_pair_id: str, sentence1: str, sentence2: str, true_label: str):
+    def __init__(self, response: str, log_list: list, sentence_pair_id: str, sentence1: str, sentence2: str, true_label: str):
         self.response = response
         self.sentence_pair_id = sentence_pair_id
         self.sentence1 = sentence1
         self.sentence2 = sentence2
         self.true_label = true_label
+        self.log_list = log_list
 
     def response_to_predLabel(self):
         response = self.response
@@ -43,11 +44,14 @@ class ProcessResponse:
 
     def process(self):
         pred_label = self.response_to_predLabel()
-        result_record = {"sentence_pair_id": self.sentence_pair_id,
-                         "sentence_1": self.sentence1,
-                         "sentence_2": self.sentence2,
-                         "true_label": self.true_label,
-                         "pred_label": pred_label}
+        result_record = {
+            "sentence_pair_id": self.sentence_pair_id,
+            "sentence_1": self.sentence1,
+            "sentence_2": self.sentence2,
+            "true_label": self.true_label,
+            "pred_label": pred_label,
+            "log": self.log_list
+        }
         return result_record
 
     def return_label_only(self):

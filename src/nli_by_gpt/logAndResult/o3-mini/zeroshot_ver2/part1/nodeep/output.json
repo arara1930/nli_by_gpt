@@ -1,0 +1,12 @@
+[
+    {
+        "sentence_pair_id": "0",
+        "sentence_1": "時計がついている場所にパブリックマーケットセンターとかかれた看板が設置されています。",
+        "sentence_2": "屋根の上に看板があり時計もついています。",
+        "true_label": "neutral",
+        "pred_label": "neutral",
+        "log": [
+            "neutral"
+        ]
+    }
+]

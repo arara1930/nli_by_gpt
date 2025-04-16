@@ -1,0 +1,1266 @@
+[
+    {
+        "sentence_pair_id": "3",
+        "sentence_1": "プロペラが取り付けられた飛行機が<主格>停められています。<述語動詞>",
+        "sentence_2": "飛行場に、<場所格>飛行機が<主格>停まっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "4",
+        "sentence_1": "双翼プロペラの飛行機が<主格>駐機しています。<述語動詞>",
+        "sentence_2": "空港に、<場所格>１機の飛行機が<主格>停まっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "60",
+        "sentence_1": "路上の手前に<場所格>白い消火栓が<主格>建っています。<述語動詞>",
+        "sentence_2": "来週、<時間格>路上の手前に白い消火栓ができる予定です。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "87",
+        "sentence_1": "包丁を<対象格>使って、<述語動詞>トマトを<対象格>薄く輪切りに<受け手格>しています。<述語動詞>",
+        "sentence_2": "木のまな板の上で、赤いトマトを<対象格>包丁で<手段・道具格>輪切りに<受け手格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "97",
+        "sentence_1": "雪山で、<場所格>スキーの格好をした2人が<主格>います。<述語動詞>",
+        "sentence_2": "雪面を<対象格>二人のスキーヤーが<主格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "107",
+        "sentence_1": "広場のゾウの像に<場所格>女の子が<主格>乗っています。<述語動詞>",
+        "sentence_2": "広場のゾウの像に<場所格>雪が<主格>積もっています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "115",
+        "sentence_1": "白い木枠の窓の向こう側に、<場所格>クロネコが<主格>座っています。<述語動詞>",
+        "sentence_2": "一匹の座ったネコが<主格>窓から<起点格>見えます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "116",
+        "sentence_1": "一匹の座ったネコが<主格>窓から<起点格>見えます。<述語動詞>",
+        "sentence_2": "白い木枠の窓の向こう側に、<場所格>クロネコが<主格>座っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "128",
+        "sentence_1": "白い皿の上に<対象格>ステーキと野菜が<主格>盛られています。<受動態>",
+        "sentence_2": "ステーキやブロッコリーが<主格>皿に<対象格>乗っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "129",
+        "sentence_1": "高架下に<場所格>白い車体のバスが<主格>止まっています。<述語動詞>",
+        "sentence_2": "道路の下に、<場所格>バスが<主格>二台<数量格>あります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "157",
+        "sentence_1": "海で<場所格>サーファーが<主格>波に<対象格>乗っています。<述語動詞>",
+        "sentence_2": "海で<場所格>サーファーが<主格>波を<対象格>待っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "191",
+        "sentence_1": "踏み切りの中を車が通行しているところです。<述語動詞>",
+        "sentence_2": "踏み切りの中を乳母車が通行しているところなんです。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "192",
+        "sentence_1": "踏み切りの中を車が通行しているところです。<述語動詞>",
+        "sentence_2": "踏み切りの中をお年寄りが通行しているところです。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "235",
+        "sentence_1": "キリンが、<主格>木の下で<場所格>ちんこを<対象格>出しています。<述語動詞>",
+        "sentence_2": "キリンが、<主格>木の下で<場所格>舌を<対象格>出しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "246",
+        "sentence_1": "象が<主格>水を<対象格>飲んでいます。<述語動詞>",
+        "sentence_2": "１匹のキリンが<主格>木の葉を<対象格>食べています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "247",
+        "sentence_1": "キリンが<主格>水を<対象格>飲んでいます。<述語動詞>",
+        "sentence_2": "１匹のキリンが<主格>木の葉を<対象格>食べています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "257",
+        "sentence_1": "男性が<主格>コントローラーを手に<部位格>ゲームを<対象格>プレイしています。<述語動詞>",
+        "sentence_2": "部屋の中で<場所格>男性が<主格>テレビゲームを<対象格>遊んでいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "258",
+        "sentence_1": "軍服の女性が巨大なハサミで<手段・道具格>男性のネクタイを<対象格>鋏んでいます。<述語動詞>",
+        "sentence_2": "迷彩柄の服を着た女性がおもちゃのハサミで男性のネクタイを切るまねを<対象格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "272",
+        "sentence_1": "夕暮れ、大木の下でスキーを楽しむ三人。<述語動詞>",
+        "sentence_2": "スキーヤーが<主格>三人雪面を<対象格>滑っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "375",
+        "sentence_1": "パラシュートを広げている男性二人が<主格>います。。<述語動詞>",
+        "sentence_2": "草原で<場所格>2人の人が<主格>気球のようなものを持って立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "383",
+        "sentence_1": "海辺の砂浜を<対象格>一羽の鳥が<主格>歩いています。<述語動詞>",
+        "sentence_2": "海辺を<対象格>男女が<主格>歩いている。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "384",
+        "sentence_1": "海辺の砂浜を<対象格>一羽の鳥が<主格>歩いています。<述語動詞>",
+        "sentence_2": "海辺を<対象格>鳥が<主格>走っている。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "385",
+        "sentence_1": "海辺を<対象格>男女が<主格>歩いている。<述語動詞>",
+        "sentence_2": "海辺の砂浜を<対象格>一羽の鳥が<主格>歩いています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "399",
+        "sentence_1": "テーブルの上にあるケーキのような物を<対象格>ネコが<主格>食べています。<述語動詞>",
+        "sentence_2": "黒猫が<主格>皿の上のケーキのような物を<対象格>食べています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "426",
+        "sentence_1": "椅子に座っている女性と子供が<主格>います。<述語動詞>",
+        "sentence_2": "ソファーで<手段・道具格>女性と子供が<主格>くつろいでいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "428",
+        "sentence_1": "スノーボードをしている人が、<主格>ジャンプしています。<述語動詞>",
+        "sentence_2": "ゲレンデで<場所格>スノーボーダーが<主格>ジャンプしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "433",
+        "sentence_1": "雪の上にスノーボードをはいてたっているひとが<主格>います。<述語動詞>",
+        "sentence_2": "雪の斜面に<場所格>スノーボーダーが<主格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "434",
+        "sentence_1": "男性が、<主格>スケートボードで<場格>ジャンプしています。<述語動詞>",
+        "sentence_2": "スケボーで、<手段・道具格>大きくジャンプを<対象格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "435",
+        "sentence_1": "スケボーで、<手段・道具格>大きくジャンプを<対象格>しています。<述語動詞>",
+        "sentence_2": "男性が、<主格>スケートボードで<場格>ジャンプしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "437",
+        "sentence_1": "シマウマが倒れている横に、<場所格>二匹の動物が<主格>います。<述語動詞>",
+        "sentence_2": "草が不規則に茂っている所に<場所格>一頭のシマウマが<主格>倒れていて、<述語動詞>横に<場所格>２頭の肉食の動物がいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "454",
+        "sentence_1": "蒸気機関車が<主格>線路に<場所格>停車しています。<述語動詞>",
+        "sentence_2": "白い煙を<対象格>上げながら、<述語動詞>蒸気機関車が<主格>ホームに<場所格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "459",
+        "sentence_1": "急流でサーフボードを持っている人が<主格>います。<述語動詞>",
+        "sentence_2": "急流のそばで、<場所格>サーフボード持つ人が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "485",
+        "sentence_1": "芝生の上で少女が<主格>猫と一緒にテニスを<対象格>している。<述語動詞>",
+        "sentence_2": "広場で<場所格>ラケットを持った猫と子供が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "512",
+        "sentence_1": "広場でバットを持っている人が<主格>います。<述語動詞>",
+        "sentence_2": "広場でラケットを持って遊んでいる人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "518",
+        "sentence_1": "スケートボードに乗った人の足が<主格>見えます。<述語動詞>",
+        "sentence_2": "路上でスケートボードをしている人の足が<主格>見えています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "531",
+        "sentence_1": "赤い2階建てバスが<主格>道路に<場所格>停まっています。<述語動詞>",
+        "sentence_2": "路肩に、<場所格>赤い二階建てバスが<主格>停まっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "552",
+        "sentence_1": "白い鳥が<主格>3羽<数量格>いる。<述語動詞>",
+        "sentence_2": "川の中に<場所格>体の白い鳥が<主格>一羽<数量格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "605",
+        "sentence_1": "歩道で、野菜を販売してる人達が<主格>います。<述語動詞>",
+        "sentence_2": "歩道で、フルーツを販売してる人達が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "630",
+        "sentence_1": "子供が<主格>黄色いサーフボードを<対象格>持って<述語動詞>橋を<対象格>渡っています。<述語動詞>",
+        "sentence_2": "黄色いサーフボードを<対象格>もって<述語動詞>子供が<主格>橋で<場所格>座っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "676",
+        "sentence_1": "駅のホームに<場所格>列車が<主格>三両<数量格>停車しています。<述語動詞>",
+        "sentence_2": "テストをしています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "677",
+        "sentence_1": "テストをしています。<述語動詞>",
+        "sentence_2": "駅のホームに<場所格>列車が<主格>三両<数量格>停車しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "721",
+        "sentence_1": "ケーブルの張られた上に<対象格>三羽の小鳥が<主格>留まっています。<述語動詞>",
+        "sentence_2": "水平に渡された電線の上に<対象格>鳥が<主格>留まっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "747",
+        "sentence_1": "手前にあるベッドの上に<場所格>人間をかたどった紙が<主格>あります。<述語動詞>",
+        "sentence_2": "ベッドのうえに<対象格>ひとの形の絵が<主格>のせられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "750",
+        "sentence_1": "国旗を後ろにつけたバイクに<場所格>男性が<主格>またがっています。<述語動詞>",
+        "sentence_2": "国旗を後ろにつけたバイクに<場所格>女性が<主格>またがっています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "754",
+        "sentence_1": "国旗を後ろにつけたバイクに<場所格>女性が<主格>またがっています。<述語動詞>",
+        "sentence_2": "国旗を後ろにつけたバイクに<場所格>男性が<主格>またがっています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "802",
+        "sentence_1": "雪が降った街を<対象格>バスが<主格>走行しています。<述語動詞>",
+        "sentence_2": "雪の残る街中に<場所格>路線バスが<主格>走っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "803",
+        "sentence_1": "電子機器の液晶画面に<対象格>時計が<主格>映っています。<述語動詞>",
+        "sentence_2": "スマートフォンに<対象格>アナログ時計が<主格>表示されています。<受動態>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "821",
+        "sentence_1": "バッターボックスに<受け手格>立っている打者が<主格>バットを<対象格>構えています。<述語動詞>",
+        "sentence_2": "バットを構えて立っている人の後ろにグローブを構えて座っている人が<主格>居て<述語動詞>更に後ろには<場所格>黒い服の男性が<主格>中腰で<場格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "833",
+        "sentence_1": "衣料品やドライヤーとともに、<相手格>黒い猫が<主格>洗面所にいる。<述語動詞>",
+        "sentence_2": "洗面台の流しの中に、<対象格>ネコとドライヤーと洋服が<主格>入っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "840",
+        "sentence_1": "牧場の柵の中の牛を<対象格>女性が<主格>世話しています。<述語動詞>",
+        "sentence_2": "女性が、<主格>柵の中にいる牛を<対象格>触っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "860",
+        "sentence_1": "交差点の角に<場所格>壁に絵の書かれた緑の建物が<主格>あります。<述語動詞>",
+        "sentence_2": "四つ角のある、<述語動詞>1ドルショップの<数量格>壁です。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "920",
+        "sentence_1": "川辺の芝生の上を<対象格>白い鳥が<主格>歩いています。<述語動詞>",
+        "sentence_2": "草地の上を<対象格>鳥の群れが<主格>歩いています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "925",
+        "sentence_1": "机の上に、<対象格>マウスとキーボードとカップが<主格>あります。<述語動詞>",
+        "sentence_2": "机の上には<対象格>キーボードとマウスとマグカップが<主格>置いてあります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "935",
+        "sentence_1": "右肩に<場所格>猫が<主格>乗っている。<述語動詞>",
+        "sentence_2": "女性の左の肩に<場所格>白い猫が<主格>乗っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "939",
+        "sentence_1": "スキーで雪山を登っている人が<主格>います。<述語動詞>",
+        "sentence_2": "スキーで雪山を滑っている人が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "951",
+        "sentence_1": "ドーナッツ、コーヒー、スプーンが<主格>マットの上に<対象格>あります。<述語動詞>",
+        "sentence_2": "テーブルクロスの上の紙の上に、<対象格>ドーナツ１個とティースプーン、コーヒーが入ったカップが<主格>置いてあります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "978",
+        "sentence_1": "男性がはさみを使って何かを切ろうとしている<相手格>ところです。<述語動詞>",
+        "sentence_2": "大人の男性が、<主格>何かを<対象格>ハサミで<手段・道具格>切っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "990",
+        "sentence_1": "男性が<主格>サーフボードとパドルを<対象格>使って<述語動詞>波に<対象格>乗っている。<述語動詞>",
+        "sentence_2": "男性が<主格>サーフボードを持って立っている。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1003",
+        "sentence_1": "男性スキーヤーが<主格>雪の上を<対象格>歩いています。<述語動詞>",
+        "sentence_2": "雪が積もった道を<対象格>男性が<主格>スキーで<手段・道具格>歩いています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1011",
+        "sentence_1": "店頭に置かれた木製の台の上に<場所格>果物が<主格>ばら撒かれている。<受動態>",
+        "sentence_2": "店頭に置かれた木製の台の上に<場所格>果物が<主格>積まれています。<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1033",
+        "sentence_1": "家の軒下に、<場所格>一匹の犬が<主格>座っています。<述語動詞>",
+        "sentence_2": "建物の軒先に<場所格>一匹の犬が<主格>座り、<述語動詞>脇に<部位格>オートバイが<主格>止められています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1034",
+        "sentence_1": "カウンターに<場所格>白髪の男女が<主格>集まって<述語動詞>話をしています。<述語動詞>",
+        "sentence_2": "カウンターに<場所格>老人たちが<主格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1040",
+        "sentence_1": "男子テニスプレイヤーが<主格>コートで<手段・道具格>ボールを<対象格>突いています。<述語動詞>",
+        "sentence_2": "コートで<手段・道具格>テニスが<主格>おこなわれています。<受動態>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1054",
+        "sentence_1": "数色のストライプがらのカバーがかかったベットです。<述語動詞>",
+        "sentence_2": "ツインの部屋に<場所格>大のベッドが<主格>置かれています。<受動態>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1064",
+        "sentence_1": "砂の上にウマを連れた男性が<主格>走っています。<述語動詞>",
+        "sentence_2": "砂の上に<対象格>ウマを連れた男性が<主格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1067",
+        "sentence_1": "白いお皿に、<対象格>握り寿司3つに<対象格>ピザとパンが<主格>盛り付けられています。<述語動詞>",
+        "sentence_2": "白いプレートに<対象格>ピザやお寿司が<主格>盛り付けられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1090",
+        "sentence_1": "緑の縁、中は<対象格>ピンクのフリスビーを前に、<場所格>犬が<主格>舌を出して座っています。<述語動詞>",
+        "sentence_2": "芝生の上に<対象格>あるフライングディスクの前に黒い犬が伏せています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1115",
+        "sentence_1": "黒い人形の横に<場所格>食べ物と飲み物が<主格>置かれています。<受動態>",
+        "sentence_2": "黒い人形の横に<場所格>おもちゃが<主格>置かれています。<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1121",
+        "sentence_1": "１台のバスが<主格>停留所に<場所格>停車しています。<述語動詞>",
+        "sentence_2": "バスが<主格>徐行を始めました。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1124",
+        "sentence_1": "バスが<主格>徐行を始めました。<述語動詞>",
+        "sentence_2": "１台のバスが<主格>停留所に<場所格>停車しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1136",
+        "sentence_1": "寝室に<場所格>ソファーが<主格>あります。<述語動詞>",
+        "sentence_2": "とても広いリビングの真ん中に<場所格>ソファーが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1150",
+        "sentence_1": "道を行くイージーライダー風のバイクに、<場所格>2人乗りを<対象格>しています。<述語動詞>",
+        "sentence_2": "前輪が遠く離れたバイクにまたがる男女が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1157",
+        "sentence_1": "まな板の上に<対象格>きのこと包丁と野菜が<主格>置かれています。<受動態>",
+        "sentence_2": "まな板の上に、<対象格>切られたしいたけとたまねぎが<主格>あります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1163",
+        "sentence_1": "帽子　が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "sentence_2": "動物が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1164",
+        "sentence_1": "人　が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "sentence_2": "動物が<主格>木の枝の上でぶら下がっています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1172",
+        "sentence_1": "駐車場に<場所格>オレンジにペイントされた二階建てバスが<主格>止まっています。<述語動詞>",
+        "sentence_2": "駐車場に<場所格>オレンジにペイントされた二階建てバスが<主格>止まろうとしています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1192",
+        "sentence_1": "窓から陽の差す部屋に<場所格>布団が<主格>置かれています。<受動態>",
+        "sentence_2": "白い窓枠から光が差し込む部屋に、<場所格>布団が<主格>あります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1206",
+        "sentence_1": "浸水した街の中に人々の乗ったボートが<主格>浮かんでいます。<述語動詞>",
+        "sentence_2": "ボートに、<対象格>たくさんの人が<主格>乗っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1236",
+        "sentence_1": "道路に<場所格>二階建てバスが<主格>通行しています。<述語動詞>",
+        "sentence_2": "街中を<対象格>ダブルデッカーバスが<主格>走っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1245",
+        "sentence_1": "胸の大きな女性が<主格>日傘を<対象格>さしています。<述語動詞>",
+        "sentence_2": "胸の大きな女性が<主格>眠っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1246",
+        "sentence_1": "胸の大きな女性が<主格>泳いでいます。<述語動詞>",
+        "sentence_2": "胸の大きな女性が<主格>日傘を<対象格>さしています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1247",
+        "sentence_1": "胸の大きな女性が<主格>眠っています。<述語動詞>",
+        "sentence_2": "胸の大きな女性が<主格>日傘を<対象格>さしています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1264",
+        "sentence_1": "岩の上に<対象格>二頭の茶色いくまが<主格>います。<述語動詞>",
+        "sentence_2": "岩の上に<対象格>大きな茶色のクマが<主格>２頭<数量格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1270",
+        "sentence_1": "電車が通過しているホームで<場所格>男の人が<主格>携帯電話を見ています。<述語動詞>",
+        "sentence_2": "男性が<主格>携帯電話で話している。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1272",
+        "sentence_1": "男性が<主格>携帯電話で話している。<述語動詞>",
+        "sentence_2": "電車が通過しているホームで<場所格>男の人が<主格>携帯電話を見ています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1284",
+        "sentence_1": "若い金髪の女性が<主格>テニスを<対象格>しています。<述語動詞>",
+        "sentence_2": "女性が<主格>ラケットを<対象格>持って<述語動詞>テニスを<対象格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1302",
+        "sentence_1": "古いレンガつくりの壁に十字架か掲げられていて上部のふちが規則的に凸凹したつくりの建物です。<述語動詞>",
+        "sentence_2": "石造りの建物の上部に<場所格>十字架が<主格>あります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1322",
+        "sentence_1": "雪道を<対象格>スキーヤーが<主格>滑っています。<述語動詞>",
+        "sentence_2": "スキーヤーが<主格>斜面を<対象格>滑っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1332",
+        "sentence_1": "暗い場所で<場所格>携帯電話が光っています。<述語動詞>",
+        "sentence_2": "暗闇の中、携帯電話を開いた状態で<場格>光りが<主格>漏れています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1347",
+        "sentence_1": "工事中の道路に、回り道を誘導するパイロンが置いてあります。<述語動詞>",
+        "sentence_2": "赤いコーンを立て、その中に<受け手格>赤いネットを<対象格>張って、<述語動詞>マンホール内の工事をしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1362",
+        "sentence_1": "スノーボーダーが<主格>ジャンプ台から飛んでいます。<述語動詞>",
+        "sentence_2": "雪の斜面の上をスノーボードでジャンプしている人が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1379",
+        "sentence_1": "たくさんの白いイスに、<対象格>ガラスのテーブル、中央に<場所格>黒い衝立が<主格>あります。<述語動詞>",
+        "sentence_2": "大きな窓が壁一面に付いた明るい部屋の中は<対象格>白いカーテンに<対象格>白いソファーが<対象格>置いてあります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1405",
+        "sentence_1": "自転車に<対象格>スケートボードが<主格>立てかけられています。<述語動詞>",
+        "sentence_2": "自転車の側面に<場所格>スケボーが<主格>立てかけられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1406",
+        "sentence_1": "自転車に<対象格>スケートボードが<主格>立てかけられています。<述語動詞>",
+        "sentence_2": "自転車の側面に<場所格>スケートボードが<主格>立てかけられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1414",
+        "sentence_1": "線路上で<場所格>鉄道車両が<主格>通過待ちをしています。<述語動詞>",
+        "sentence_2": "線路上を鉄道車両が通過するところです。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1422",
+        "sentence_1": "広いリビング、大きな窓に白いカーテン、天井に茶色の扇風機、壁に薄型テレビに暖炉、茶色の机、黒いテーブル、黒いソファその他が<主格>置いてあります。<述語動詞>",
+        "sentence_2": "黒くて大きなソファーが置かれた<受動態>リビングルーム。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1429",
+        "sentence_1": "晴天の雪山を<対象格>スキーヤーが<主格>滑っています。<述語動詞>",
+        "sentence_2": "雪山の斜面を<対象格>スキーヤーが<主格>滑っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1443",
+        "sentence_1": "白とグレーの毛色の犬が<主格>草と地面の境目に<場所格>立っています。<述語動詞>",
+        "sentence_2": "芝生の近くのアスファルトの上に、<場所格>犬が<主格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1458",
+        "sentence_1": "港町のパブで<場所格>数人の男たちが<主格>食事を楽しんでいる。<述語動詞>",
+        "sentence_2": "屋外で<場所格>パーティーを<対象格>していて<述語動詞>みんな笑顔です。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1461",
+        "sentence_1": "焼きあがったピザが<主格>お皿の上に<対象格>載っています。<述語動詞>",
+        "sentence_2": "こんがりと焼けたピザが、<主格>白い皿に<対象格>載せられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1491",
+        "sentence_1": "公園のベンチの前に<場所格>時計が<主格>立っています。<述語動詞>",
+        "sentence_2": "公園のベンチの前に<場所格>女性が<主格>立っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1526",
+        "sentence_1": "バットを下から振り上げているバッターが<主格>います。<述語動詞>",
+        "sentence_2": "野球のバッターが<主格>ボールを<対象格>打とうとしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1529",
+        "sentence_1": "スケートボードをしている人が<主格>ジャンプしています。<述語動詞>",
+        "sentence_2": "スケートボードを持っている人が<主格>歩いてきます。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1552",
+        "sentence_1": "二人の子供が寝ているベッドで<数量格>女性が<主格>本を<対象格>開いて見せています。<述語動詞>",
+        "sentence_2": "母親が<主格>ベッドで<手段・道具格>子供に<受け手格>本を<対象格>見せています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1580",
+        "sentence_1": "部屋の中に三台並んだベッドの足元に<場所格>椅子が<主格>三脚置かれています。<受動態>",
+        "sentence_2": "部屋の中に三台並んだベッドから離れた場所に<場所格>椅子が<主格>三脚置かれています。<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1607",
+        "sentence_1": "波打ち際で<場所格>サーファーが<主格>サーフボードを持って歩いています。<述語動詞>",
+        "sentence_2": "海辺のビーチにて、<場所格>サーフボードを持った男性が<主格>歩いています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1624",
+        "sentence_1": "海の上に<場所格>船が<主格>一艘<数量格>浮かんでいる。<述語動詞>",
+        "sentence_2": "海の上にたくさんの船が浮かんでいるところです。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1628",
+        "sentence_1": "タイルの壁に<場所格>歯ブラシが<主格>ぶら下げられています。<述語動詞>",
+        "sentence_2": "壁のフックには<場所格>歯ブラシが<主格>かけられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1647",
+        "sentence_1": "白い大皿に載せられた料理を手を使わずに食べようとしている男性がいます。<述語動詞>",
+        "sentence_2": "白いシーツの敷かれた台の上に置かれたお皿に盛られた食べ物に舌を出した顔を近づけている人物が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1663",
+        "sentence_1": "男性が<主格>フリスビーを両手に持って立っています。<述語動詞>",
+        "sentence_2": "公園で<場所格>フリスビーを持った男性が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1674",
+        "sentence_1": "オリーブなどを乗せた焼かれたお好み焼きが<主格>あります。<述語動詞>",
+        "sentence_2": "オリーブなどを乗せた焼かれたピザが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1675",
+        "sentence_1": "オリーブなどを乗せた焼かれたたこ焼きが<主格>あります。<述語動詞>",
+        "sentence_2": "オリーブなどを乗せた焼かれたピザが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1676",
+        "sentence_1": "オリーブなどを乗せた焼かれたラザニアが<主格>あります。<述語動詞>",
+        "sentence_2": "オリーブなどを乗せた焼かれたピザが<主格>あります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1728",
+        "sentence_1": "ダイニングで食事をする男性がいます。<述語動詞>",
+        "sentence_2": "男性が食べ物を食べているところです。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1744",
+        "sentence_1": "バイクを二人乗りしている人が<主格>見えます。<述語動詞>",
+        "sentence_2": "2人乗りをした、バイクが<主格>走っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1751",
+        "sentence_1": "門の上から<起点格>１匹の猫が<主格>飛び降りた。<述語動詞>",
+        "sentence_2": "門の下から<起点格>1匹の猫が<主格>顔を<対象格>覗かせています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1784",
+        "sentence_1": "誰もいないホームに<場所格>電車が<主格>入ってきています。<述語動詞>",
+        "sentence_2": "列車が<主格>駅のホームに<場所格>入ってきています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1785",
+        "sentence_1": "パソコンを置いているデスクの上に<受け手格>足を<対象格>載せています。<述語動詞>",
+        "sentence_2": "パソコンを置いているデスクの上に<受け手格>手を<対象格>載せています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1786",
+        "sentence_1": "パソコンを置いているデスクの上に<受け手格>足を<対象格>載せています。<述語動詞>",
+        "sentence_2": "パソコンを置いているデスクの上に<受け手格>肘を<対象格>載せています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1789",
+        "sentence_1": "車のそばで、男性が<主格>電話を<対象格>耳に<部位格>あてています。<述語動詞>",
+        "sentence_2": "男性が<主格>電話を探しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1851",
+        "sentence_1": "小鳥たちが<主格>木に<対象格>止まっている。<述語動詞>",
+        "sentence_2": "小鳥たちが<主格>道に落ちたパンを<対象格>つついています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1855",
+        "sentence_1": "お皿には<対象格>数種類のフルーツが<主格>盛られています。<受動態>",
+        "sentence_2": "カゴにフルーツが<主格>盛られています。<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1857",
+        "sentence_1": "カゴにフルーツが<主格>盛られています。<受動態>",
+        "sentence_2": "お皿には<対象格>数種類のフルーツが<主格>盛られています。<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1860",
+        "sentence_1": "二頭のシマウマが<主格>向き合って<述語動詞>顔を<対象格>近づけています。<述語動詞>",
+        "sentence_2": "シマウマが<主格>２頭、<数量格>囲いの中で<手段・道具格>向き合っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1865",
+        "sentence_1": "ドアの隙間から、<起点格>動物が<主格>顔を<対象格>出しています。<述語動詞>",
+        "sentence_2": "ドアがあいた隙間から<起点格>動物の姿が<主格>みえています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1885",
+        "sentence_1": "針葉樹の枝の上で小さい鳥が<主格>鳴いています。<述語動詞>",
+        "sentence_2": "針葉樹の枝の上で小さい鳥が<主格>静かにあたりを<対象格>見回しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1902",
+        "sentence_1": "牧草地で羊が牧草を、食べているところです。<述語動詞>",
+        "sentence_2": "広い緑の草原に、<場所格>一頭の羊が、<主格>草を<対象格>食べています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1916",
+        "sentence_1": "グリーンのテーブルと白いソファーが<主格>置かれています。<受動態>",
+        "sentence_2": "緑色のテーブルが置かれた<受動態>リビングです。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "1937",
+        "sentence_1": "赤い二階建てバスが<主格>道を<対象格>走ります。<述語動詞>",
+        "sentence_2": "町の横断歩道の前に<場所格>赤い二階建てのバスが<主格>止まっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "1938",
+        "sentence_1": "犬が<主格>赤い布の上でぬいぐるみを枕にして寝ています。<述語動詞>",
+        "sentence_2": "犬が<主格>ぬいぐるみと<相手格>じゃれている。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "1988",
+        "sentence_1": "机の上に<対象格>十字架とろうそくが<主格>置かれ、<受動態>お花が<主格>供えられています。<述語動詞>",
+        "sentence_2": "テーブルに、<対象格>十字架とローソクが<主格>立てられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2061",
+        "sentence_1": "たくさんの種類の野菜や果物が<主格>机の上に<対象格>置かれています。<受動態>",
+        "sentence_2": "キャベツ、ブロッコリー、バナナ、りんごなど沢山の果物と野菜が盛り付けられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2093",
+        "sentence_1": "赤い傘を差した女性の集団が<主格>います。<述語動詞>",
+        "sentence_2": "黄色い帽子をかぶった子供の集団が<主格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2104",
+        "sentence_1": "一匹の猫が、<主格>床に<場所格>寝転んでいます。<述語動詞>",
+        "sentence_2": "一匹の猫が<主格>床で体を伸ばして寝転んでいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2124",
+        "sentence_1": "女の子の横のテーブルの上に<場所格>ケーキが<主格>置かれています。<受動態>",
+        "sentence_2": "女の子の前のテーブルの上に<対象格>ケーキが<主格>置かれています。<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2135",
+        "sentence_1": "トイレの便座の上に<場所格>トカゲが<主格>1匹<数量格>います。<述語動詞>",
+        "sentence_2": "洋式便器の便座の上に<対象格>小さなトカゲが<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2164",
+        "sentence_1": "キッチンの台に<場所格>シルバーの冷蔵庫があります。<述語動詞>",
+        "sentence_2": "キッチンの台に<場所格>シルバーのトースターがあります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2169",
+        "sentence_1": "ユニホームを着た男性が<主格>グラウンドで<場所格>ボールを<対象格>手に<部位格>持っています。<述語動詞>",
+        "sentence_2": "グラウンドで<場所格>２人の男性が<主格>ボールを<対象格>投げています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2171",
+        "sentence_1": "スーツ姿の男性が<主格>スキー板をつけて立っている。<述語動詞>",
+        "sentence_2": "スーツ姿の男性が<主格>スキー板を<対象格>履いて<述語動詞>雪の上に<対象格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2202",
+        "sentence_1": "ラケットを持ち白いバンダナを頭に巻いた男性です。<述語動詞>",
+        "sentence_2": "テニスラケットを持った男性は、<主格>頭に<部位格>ハチマキを<対象格>巻いています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2214",
+        "sentence_1": "２両のモノレールが<主格>橋の上のレールを<対象格>走っています。<述語動詞>",
+        "sentence_2": "橋桁の上を<対象格>モノレールが<主格>通行しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2234",
+        "sentence_1": "黒い自動車が<主格>野外に<場所格>駐車されています。<受動態>",
+        "sentence_2": "大きな袋で<手段・道具格>荷台が<対象格>いっぱいのピックアップが、<対象格>家の前に<場所格>止まっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2263",
+        "sentence_1": "道路標識の後ろの壁に<場所格>落書きがされています。<受動態>",
+        "sentence_2": "道端の建物の壁には<場所格>黒いインクで<手段・道具格>落書きが描かれています。<受動態>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2276",
+        "sentence_1": "木々の中で、<手段・道具格>２頭のキリンが<主格>首を<対象格>絡め合っています。<述語動詞>",
+        "sentence_2": "キリンたちが<主格>木の下で、<場所格>首を<対象格>絡めあっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2277",
+        "sentence_1": "マットの上に<対象格>黒い猫が<主格>座っています。<述語動詞>",
+        "sentence_2": "床に<場所格>黒いいろのネコが<主格>すわっています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2299",
+        "sentence_1": "男性が<主格>テニスボールを<対象格>打ち返そうとしています。<述語動詞>",
+        "sentence_2": "テニスコートで<場格>男性が<主格>ボールを<対象格>打ち返そうとしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2314",
+        "sentence_1": "スーツを着た男性が<主格>握手をしています。<述語動詞>",
+        "sentence_2": "濃い色のスーツを着た男性2人が握手をしている後ろで、3人の男性が握手をしているのを見ています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2322",
+        "sentence_1": "草原でじゃれている象が<主格>二頭<数量格>います。<述語動詞>",
+        "sentence_2": "二匹の象が<主格>鼻で<部位格>じゃれあって遊んでいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2323",
+        "sentence_1": "二匹の象が<主格>鼻で<部位格>じゃれあって遊んでいます。<述語動詞>",
+        "sentence_2": "草原でじゃれている象が<主格>二頭<数量格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2329",
+        "sentence_1": "サーファーが<主格>波の中を<対象格>滑っています。<述語動詞>",
+        "sentence_2": "男性が<主格>波を切りながら<相手格>サーフィンをしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2333",
+        "sentence_1": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "青空の中を<対象格>気球が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2339",
+        "sentence_1": "青空の中を<対象格>鳥が<主格>飛んでいきます。<述語動詞>",
+        "sentence_2": "青空の中を<対象格>大きな飛行機が<主格>飛んでいきます。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2343",
+        "sentence_1": "角が生えた白い牛が<主格>横を<対象格>向いています。<述語動詞>",
+        "sentence_2": "羊が<主格>草を<対象格>食べている。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2353",
+        "sentence_1": "水辺の草原で<場所格>男性が<主格>凧揚げを<対象格>しています。<述語動詞>",
+        "sentence_2": "男性が<主格>屋外でカラフルな凧を<対象格>あげています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2354",
+        "sentence_1": "芝生に<対象格>止まれの交通標識が有ります。<述語動詞>",
+        "sentence_2": "芝生の上に<対象格>停止の道路標識看板が立っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": "2363",
+        "sentence_1": "スケートボーダーたちが<主格>座って<述語動詞>休憩をしています。<述語動詞>",
+        "sentence_2": "スケートボードを足元に置いて座っている人達が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": "2419",
+        "sentence_1": "丸いカゴの中に<対象格>バナナが<主格>3本<数量格>入っています。<述語動詞>",
+        "sentence_2": "編んだボウルに<対象格>3本のバナナが<主格>置かれている。<受動態>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": "2422",
+        "sentence_1": "テーブで貼られた紙の前に<時間格>ハサミが<主格>あります。<述語動詞>",
+        "sentence_2": "テープで貼られている紙の前に<時間格>はさみが<主格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    }
+]

@@ -1,116 +1,83 @@
-from nli_by_gpt.use_gpt_api.make_file_path import MakeFilePath
-import json
+from nli_by_gpt.use_gpt_api.make_file_or_path import MakeFileOrPath
+from nli_by_gpt.use_gpt_api.read_file import ReadFile
+from nli_by_gpt.calc.calc import calc
+from nli_by_gpt.calc.calc_for_combined_json import calc_for_combined_json
+from nli_by_gpt.analysis.combine_result import combine
+from nli_by_gpt.analysis.make_both_true_false_only_true_file import make_both_true_false_only_true_file
 
 
-class DefineFilePath:
-    def __init__(self, config_path: str):
-        self.make_file_path = MakeFilePath(config_path)
-
-    def get_withdeep_only_true_path_for_analysis(self):
-        # withdeep_only_true.jsonのパスを指定
-        withdeep_only_true_path_for_analysis = self.make_file_path.make_withdeep_only_true_path_for_analysis()
-        return withdeep_only_true_path_for_analysis
-
-    def get_nodeep_only_true_path_for_analysis(self):
-        # nodeep_only_true.jsonのパスを指定
-        nodeep_only_true_path_for_analysis = self.make_file_path.make_nodeep_only_true_path_for_analysis()
-        return nodeep_only_true_path_for_analysis
-
-    def get_both_true_path_for_analysis(self):
-        # both_true.jsonのパスを指定
-        both_true_path_for_analysis = self.make_file_path.make_both_true_path_for_analysis()
-        return both_true_path_for_analysis
-
-    def get_both_false_path_for_analysis(self):
-        # both_false.jsonのパスを指定
-        both_false_path_for_analysis = self.make_file_path.make_both_false_path_for_analysis()
-        return both_false_path_for_analysis
-
-
-def make_json_file(file_path: str, data: list):
-    # JSON形式の文字列に変換
-    json_data = json.dumps(data, ensure_ascii=False, indent=4)
-
-    # ファイルに書き出す
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(json_data)
+def append_to_result_txt(result_output_path: str, content_list: list):
+    with open(result_output_path, 'a') as f:
+        print('\n', file=f)
+        for content in content_list:
+            print(content, file=f)
 
 
 def main():
-    config_path = '../logAndResult/gpt-4o/part1/withdeep/config.yaml'
-    # make_file_pathを初期化
-    make_file_path = MakeFilePath(config_path)
+    # config_path = "../logAndResult/gpt-4o/ver2/part1/nodeep/config.yaml"
+    # config_path = "../logAndResult/gpt-4o/ver2/part1/withdeep/config.yaml"
+    # config_path = "../logAndResult/gpt-4o-mini/ver1/part1/nodeep/config.yaml"
+    # config_path = "../logAndResult/gpt-4o-mini/ver2/part1/withdeep/config.yaml"
+    config_path = "../logAndResult/jsnli/gpt-4o/nodeep/config.yaml"
+
+    # make_file_or_pathを初期化
+    make_file_or_path = MakeFileOrPath(config_path)
+    # output.jsonのパスを指定
+    output_json_path = make_file_or_path.make_outputFile_path()
     # combined.jsonのパスを指定
-    combined_json_path_for_analysis = make_file_path.make_combined_json_path_for_analysis()
+    combined_json_path_for_analysis = make_file_or_path.make_combined_json_path_for_analysis()
     # both_true.jsonのパスを指定
-    both_true_path_for_analysis = make_file_path.make_both_true_path_for_analysis()
+    both_true_path_for_analysis = make_file_or_path.make_both_true_path_for_analysis()
     # both_false.jsonのパスを指定
-    both_false_path_for_analysis = make_file_path.make_both_false_path_for_analysis()
+    both_false_path_for_analysis = make_file_or_path.make_both_false_path_for_analysis()
     # withdeep_only_true.jsonのパスを指定
-    withdeep_only_true_path_for_analysis = make_file_path.make_withdeep_only_true_path_for_analysis()
+    withdeep_only_true_path_for_analysis = make_file_or_path.make_withdeep_only_true_path_for_analysis()
     # nodeep_only_true.jsonのパスを指定
-    nodeep_only_true_path_for_analysis = make_file_path.make_nodeep_only_true_path_for_analysis()
+    nodeep_only_true_path_for_analysis = make_file_or_path.make_nodeep_only_true_path_for_analysis()
 
-    # ファイルを開いてJSONデータを読み込む
-    with open(combined_json_path_for_analysis, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    # ReadFileを初期化
+    read_file = ReadFile(config_path=config_path)
 
-    # idと前提文と仮定文と正解ラベルのkeyを指定
-    key_id = 'sentence_pair_id'
-    key_s1 = 'sentence_1'
-    key_s2 = 'sentence_2'
-    key_true_label = 'true_label'
-    key_withdeep_pred_label = 'withdeep_pred'
-    key_nodeep_pred_label = 'nodeep_pred'
+    # 混合行列とクラシフィケーションレポートを作成
+    calc(
+        target_path=output_json_path,
+        read_file=read_file,
+        make_file_or_path=make_file_or_path
+    )
 
-    both_true = []
-    both_false = []
-    withdeep_only_true = []
-    nodeep_only_true = []
-    for record in data:
-        withdeep_true = (record[key_true_label] ==
-                         record[key_withdeep_pred_label])
-        withdeep_false = (record[key_true_label] !=
-                          record[key_withdeep_pred_label])
-        nodeep_true = (record[key_true_label] == record[key_nodeep_pred_label])
-        nodeep_false = (record[key_true_label] !=
-                        record[key_nodeep_pred_label])
+    # combined.jsonを作成
+    combine(make_file_or_path=make_file_or_path, read_file=read_file)
 
-        # both_trueファイルの作成
-        if withdeep_true and nodeep_true:
-            both_true.append(record)
+    # both_true,both_false,withdeep_only_true,nodeep_only_trueファイルを作成
+    # result.txtに追記する内容をリストで返す
+    list_for_append_result_txt = make_both_true_false_only_true_file(
+        read_file=read_file,
+        make_file_or_path=make_file_or_path,
+        combined_json_path_for_analysis=combined_json_path_for_analysis,
+        both_true_path_for_analysis=both_true_path_for_analysis,
+        both_false_path_for_analysis=both_false_path_for_analysis,
+        withdeep_only_true_path_for_analysis=withdeep_only_true_path_for_analysis,
+        nodeep_only_true_path_for_analysis=nodeep_only_true_path_for_analysis
+    )
 
-        # both_falseファイルの作成
-        if withdeep_false and nodeep_false:
-            both_false.append(record)
+    result_output_path = make_file_or_path.make_resultFile_path()
+    # 上記の内容をresult.txtに追記
+    append_to_result_txt(
+        result_output_path=result_output_path,
+        content_list=list_for_append_result_txt
+    )
 
-        # withdeep_only_trueファイルの作成
-        if withdeep_true and nodeep_false:
-            withdeep_only_true.append(record)
-
-        # nodeep_only_trueファイルの作成
-        if withdeep_false and nodeep_true:
-            nodeep_only_true.append(record)
-
-    print('number_of_both_true')
-    print(len(both_true))
-    print('number_of_both_false')
-    print(len(both_false))
-    print('number_of_withdeep_only_true')
-    print(len(withdeep_only_true))
-    print('number_of_nodeep_only_true')
-    print(len(nodeep_only_true))
-
-    # both_trueファイルの作成
-    make_json_file(file_path=both_true_path_for_analysis, data=both_true)
-    # both_falseファイルの作成
-    make_json_file(file_path=both_false_path_for_analysis, data=both_false)
-    # withdeep_only_trueファイルの作成
-    make_json_file(file_path=withdeep_only_true_path_for_analysis,
-                   data=withdeep_only_true)
-    # nodeep_only_trueファイルの作成
-    make_json_file(file_path=nodeep_only_true_path_for_analysis,
-                   data=nodeep_only_true)
+    # 各正答タイプ別jsonの混合行列とクラシフィケーションレポートをresult.txtに追記
+    target_path_list = []
+    target_path_list.append(
+        {'path': withdeep_only_true_path_for_analysis, 'type': 'withdeep_only_true'})
+    target_path_list.append(
+        {'path': nodeep_only_true_path_for_analysis, 'type': 'nodeep_only_true'})
+    calc_for_combined_json(
+        target_path_list=target_path_list,
+        read_file=read_file,
+        make_file_or_path=make_file_or_path
+    )
 
 
 if __name__ == "__main__":

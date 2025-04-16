@@ -3798,7 +3798,8 @@
         "sentence_1": "ガラス張りのケースの手前に<場所格>男性が<主格>座っています。<述語動詞>",
         "sentence_2": "ひじつき椅子に座っている男性が<主格>います。<述語動詞>",
         "true_label": "neutral",
-        "pred_label": "unk"
+        "pred_label": "neutral",
+        "log": "Neutral"
     },
     {
         "sentence_pair_id": "543",

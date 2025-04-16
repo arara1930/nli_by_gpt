@@ -1,0 +1,13 @@
+               precision    recall  f1-score   support
+
+contradiction       0.94      0.54      0.69       734
+   entailment       0.71      0.88      0.79       353
+      neutral       0.77      0.90      0.83      1347
+
+     accuracy                           0.79      2434
+    macro avg       0.81      0.77      0.77      2434
+ weighted avg       0.81      0.79      0.78      2434
+
+[[ 397    8  329]
+ [   4  311   38]
+ [  22  119 1206]]

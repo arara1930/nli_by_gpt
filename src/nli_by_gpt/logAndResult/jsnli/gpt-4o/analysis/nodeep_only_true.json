@@ -1,0 +1,1370 @@
+[
+    {
+        "sentence_pair_id": 38,
+        "sentence_1": "犬は<主格>別の犬を<対象格>追いかけます。<述語動詞>",
+        "sentence_2": "２匹の犬が<主格>走っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 55,
+        "sentence_1": "小さな金髪の子供が<主格>坂を<対象格>上っています。<述語動詞>",
+        "sentence_2": "子供が<主格>歩いています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 75,
+        "sentence_1": "草で遊んでいる２匹の<数量格>子犬<述語動詞>",
+        "sentence_2": "屋外の２匹の<数量格>子犬。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 85,
+        "sentence_1": "人命救助の手順を実行する男性のチーム。<述語動詞>",
+        "sentence_2": "チームは<主格>男性で<手段・道具格>構成されています。<受動態>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 99,
+        "sentence_1": "年配の女性が<主格>織機で<手段・道具格>デザインを<対象格>作ります。<述語動詞>",
+        "sentence_2": "女性は<主格>縫製しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 102,
+        "sentence_1": "黄色い花の野原で鹿を追いかける犬。<述語動詞>",
+        "sentence_2": "犬が<主格>外を<対象格>走っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 110,
+        "sentence_1": "子供が<主格>ドアの外を<対象格>見ています。<述語動詞>",
+        "sentence_2": "子供は<主格>眠っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 116,
+        "sentence_1": "白いシャツとジーンズを着た女性が、<主格>緑豊かなエリアで<場所格>ロープブリッジを<対象格>渡ります。<述語動詞>",
+        "sentence_2": "白いシャツを着た女性が森の中で<場所格>橋を<対象格>渡る。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 129,
+        "sentence_1": "これは<主格>写真ブースの男性です。<述語動詞>",
+        "sentence_2": "レストランの男。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 174,
+        "sentence_1": "ズボンをはいていない２人の男性が、<主格>公共交通機関で<場格>隣同士に<場所格>座って<述語動詞>読書を<対象格>しています。<述語動詞>",
+        "sentence_2": "二人の男は<主格>スイムショーツを<対象格>着ています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 224,
+        "sentence_1": "ふさふさした黒髪の写真家が<主格>屋内公園で<場所格>スケートボーダーの写真を<対象格>撮ります。<述語動詞>",
+        "sentence_2": "屋内スケートパークで<場所格>母親が<主格>息子の写真を<対象格>撮ります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 239,
+        "sentence_1": "ブロンドの髪と青い目をした子供は、<主格>木製の飛行機を<対象格>手に<部位格>持っています。<述語動詞>",
+        "sentence_2": "子供が<主格>おもちゃの飛行機で<手段・道具格>遊んでいます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 241,
+        "sentence_1": "太陽が沈む間、人は<主格>ビーチで<場所格>水の中に<対象格>います。<述語動詞>",
+        "sentence_2": "女性が<主格>ビーチに<場所格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 262,
+        "sentence_1": "午後のラッシュに備えて忙しいキッチン。<述語動詞>",
+        "sentence_2": "彼らは<主格>料理を<対象格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 297,
+        "sentence_1": "帽子をかぶった男が<主格>レンガの壁の前に<場所格>立っています。<述語動詞>",
+        "sentence_2": "帽子をかぶった男が<主格>外に<場所格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 314,
+        "sentence_1": "赤ちゃんは、<主格>子供のプレイルームのアクティビティチェアに<場所格>います。<述語動詞>",
+        "sentence_2": "赤ちゃんが<主格>プレイルームで<場所格>遊んでいます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 316,
+        "sentence_1": "アニマルプリントパンツの２人の男性が<主格>白いベッドで<手段・道具格>寝ています。<述語動詞>",
+        "sentence_2": "女性が<主格>テレビを<対象格>見ています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 333,
+        "sentence_1": "拍手して、<述語動詞>人々のグループが<主格>見えない被写体の写真を<対象格>撮ります。<述語動詞>",
+        "sentence_2": "グループが<主格>拍手している。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 347,
+        "sentence_1": "ヘッドフォンを着用している男性が、<主格>公共の路上でギターを演奏している年上の男性を<対象格>観察します。<述語動詞>",
+        "sentence_2": "一人の男がラップ音楽を聴いている間、年上の男は<主格>ロック音楽を<対象格>演奏しています<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 356,
+        "sentence_1": "黄色のスリッカーの人が<主格>ビーチの横で<場所格>モーターボートを<対象格>運転しています。<述語動詞>",
+        "sentence_2": "ボートに乗った人。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 390,
+        "sentence_1": "イグルーの中で、<手段・道具格>若い男は<主格>一晩滞在の準備を<対象格>します。<述語動詞>",
+        "sentence_2": "若い男は<主格>去る準備を<対象格>します。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 415,
+        "sentence_1": "消防車の横にいる２人の<数量格>消防士。<述語動詞>",
+        "sentence_2": "二人の男が<主格>外に<場所格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 416,
+        "sentence_1": "秋には、<時間格>箱を持った男が<主格>駐車場の赤いトラックに<場所格>近づきます。<述語動詞>",
+        "sentence_2": "男は<主格>駐車場の老婦人に<場所格>箱を<対象格>配達しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 464,
+        "sentence_1": "ゴルファーは、<主格>彼が行ったショットの後に<時間格>祝います。<述語動詞>",
+        "sentence_2": "男が<主格>髪を<対象格>洗っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 495,
+        "sentence_1": "おもちゃの飛行機を持っている金髪の少年は、<主格>カラフルなおもちゃのモンスターのように見えるものの前に<時間格>います。<述語動詞>",
+        "sentence_2": "高くそびえるサボテン、野生の猫、とげのあるトカゲがいるカリフォルニアの砂漠を<対象格>ハイキングします。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 558,
+        "sentence_1": "男性が中心で歌っているライフショーのシーン、彼の両側に<場所格>一人ずつ<数量格>二人の女性が<主格>います。<述語動詞>",
+        "sentence_2": "遊びが<主格>あります。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 568,
+        "sentence_1": "緑のフリスビーを捕まえようとしている<相手格>茶色の犬。<述語動詞>",
+        "sentence_2": "犬は<主格>フリスビーを<対象格>捕まえようとしています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 600,
+        "sentence_1": "小さな水域に座っている少女。彼女の周りには<場所格>砂とビーチのおもちゃが<主格>あります。<述語動詞>",
+        "sentence_2": "女の子は<主格>テーマパークに<場所格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 609,
+        "sentence_1": "体操選手が<主格>ミッドフリップで<手段・道具格>撮影。<述語動詞>",
+        "sentence_2": "体操選手は<主格>フリップを<対象格>行います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 641,
+        "sentence_1": "黄色のジャージを着ている少年は、<主格>リレーレースで黄色のジャージを着ている女性から<起点格>バトンを<対象格>受け入れています。<述語動詞>",
+        "sentence_2": "女の子は<主格>レースで<手段・道具格>男に<受け手格>バトンを<対象格>渡されます。<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 683,
+        "sentence_1": "大きな窓のあるレンガで作られた美しい部屋の堅木張りの床に座ってテレビを見る女性、窓辺に寄りかかっている黒髪の男が<主格>彼女を<対象格>見ている。<述語動詞>",
+        "sentence_2": "女性は<主格>ビデオを<対象格>編集しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 737,
+        "sentence_1": "ゴールキーパーは、<主格>サッカーの試合中に<時間格>ボールを<対象格>キャッチしようとします。<述語動詞>",
+        "sentence_2": "ゴールキーパーは<主格>ゴールキーパーとして彼の仕事を<対象格>しています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 753,
+        "sentence_1": "花火を見るために集まった人々のグループ。<述語動詞>",
+        "sentence_2": "グループは<主格>家の中に<場所格>集まりました。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 761,
+        "sentence_1": "黒と茶色の２頭の馬が<主格>男を<対象格>外に<場所格>引っ張っています。<述語動詞>",
+        "sentence_2": "馬を<対象格>使って<述語動詞>男が<主格>畑を<対象格>耕します。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 808,
+        "sentence_1": "軍のメンバーは<主格>夜に<時間格>いくつかの車両の周りに<場所格>集まります。<述語動詞>",
+        "sentence_2": "軍隊が<主格>自分の車両を<対象格>囲んでいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 818,
+        "sentence_1": "ジャンプしながらふざけて互いに噛む２匹の<数量格>犬<述語動詞>",
+        "sentence_2": "２匹の犬が<主格>戦い、<述語動詞>うなり声を上げながら互いに噛み合っています<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 824,
+        "sentence_1": "スケートボーダーは<主格>空中で<場所格>トリックを<対象格>演じています。<述語動詞>",
+        "sentence_2": "スケートボーダーは<対象格>スケートボードに乗った経験が<対象格>ある<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 833,
+        "sentence_1": "夜、店の隣を歩いている服を着た女性。<述語動詞>",
+        "sentence_2": "夜、<時間格>服を着た女性が<主格>薬局の隣を<対象格>歩いています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 835,
+        "sentence_1": "カップから<起点格>飲みながら、<述語動詞>麦わら帽子をかぶった男とストライプのシャツを着た男。どちらも<主格>変な顔を<対象格>しています。<述語動詞>",
+        "sentence_2": "男性は<主格>飲み物を<対象格>持っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 858,
+        "sentence_1": "白い野球場の角に立っている男性が、<主格>白いドレススーツを<対象格>着て、<述語動詞>カメラマンが<主格>カメラを<対象格>向けている。<述語動詞>",
+        "sentence_2": "ジャーナリストが写真を撮っている間、野球選手が<主格>決勝戦の７試合で<場格>外野で<場所格>プレーしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 864,
+        "sentence_1": "３人の若い男性が<主格>教室を<対象格>掃除しています。<述語動詞>",
+        "sentence_2": "３人の若い男性が<主格>クラスを<対象格>掃除します。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 968,
+        "sentence_1": "黄色い花の野原で鹿を追いかける犬。<述語動詞>",
+        "sentence_2": "犬が<主格>鹿の喉を<対象格>引き裂いています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 986,
+        "sentence_1": "ショートパンツの３人のインド人の男の子が<主格>互いに遊びます。<述語動詞>",
+        "sentence_2": "３人の<数量格>男の子。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 994,
+        "sentence_1": "男が<主格>路上で<場所格>ギターを<対象格>弾く。<述語動詞>",
+        "sentence_2": "男は<主格>自分の楽器で<手段・道具格>遊んでいます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1041,
+        "sentence_1": "子供が<主格>ドアの外を<対象格>見ています。<述語動詞>",
+        "sentence_2": "ドアが<主格>あります。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1069,
+        "sentence_1": "小さな男の子が<主格>腕を浮かせてプールで泳ぐことを<場所格>学んでいます。<述語動詞>",
+        "sentence_2": "小さな男の子は<主格>優秀なスイマーであるため、ダイビングボードから<起点格>飛び降りています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1084,
+        "sentence_1": "きれいにバランスの取れた男性が、<主格>きれいな海のビーチエリアの近くに<場所格>片足で<手段・道具格>立っています。<述語動詞>",
+        "sentence_2": "ビーチの近くで<場所格>妻と一緒に片足で立っている男性。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1089,
+        "sentence_1": "男性と女性は、フランスの有名な建物の前で写真を撮っているように見えます。<述語動詞>",
+        "sentence_2": "男性と女性は、写真を撮られているように<受動態>見えます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1090,
+        "sentence_1": "青いフード付きのトップを着た少年は、<主格>赤ちゃんヤギを<対象格>両腕に<部位格>抱えています。<述語動詞>",
+        "sentence_2": "ヤギは<主格>男の子の腕に<部位格>飛び込んだ。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1099,
+        "sentence_1": "浅い水の中を走っている茶色の犬。<述語動詞>",
+        "sentence_2": "バセットハウンドが<主格>走っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1112,
+        "sentence_1": "３人の小さな男の子が<主格>手を<対象格>つないで<述語動詞>一緒にプールに<場所格>飛び込みます。<述語動詞>",
+        "sentence_2": "小さな男の子は<主格>友達です。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1120,
+        "sentence_1": "競馬場でレースをする３匹の<数量格>犬<述語動詞>",
+        "sentence_2": "３匹の犬が<主格>競馬場で<場所格>ウサギを<対象格>追いかけます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1132,
+        "sentence_1": "黒いズボンを着た女性が<主格>携帯電話を<対象格>見ています。<述語動詞>",
+        "sentence_2": "女性は<主格>彼女の電話を<対象格>見ています<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1156,
+        "sentence_1": "スポーツの伝統的な白いスーツと防護マスクに身を包んだ２人の剣士が<主格>決闘を<対象格>練習します。<述語動詞>",
+        "sentence_2": "二人は<主格>互いに激しく切り裂く<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1183,
+        "sentence_1": "二人は<主格>海で<場所格>サーフィンを<対象格>しています。<述語動詞>",
+        "sentence_2": "外に<場所格>人が<主格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1196,
+        "sentence_1": "彼のママの車でせっけんのスポンジを投げる小さな金髪の少年。<述語動詞>",
+        "sentence_2": "母親に<受け手格>腹を<対象格>立て、<述語動詞>小さな男の子は<主格>車に<受け手格>スポンジを<対象格>投げます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1211,
+        "sentence_1": "クレヨンを<対象格>使って<述語動詞>子どもたちは<主格>紙に<受け手格>色を<対象格>つけます。<述語動詞>",
+        "sentence_2": "クレヨンを<対象格>使って<述語動詞>子供たちは<主格>大きな画用紙を<対象格>着色します。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1228,
+        "sentence_1": "若い男の子が<主格>スプリンクラーで<手段・道具格>遊んで、<述語動詞>水を<対象格>右腕に<部位格>完全に吹きかけます。<述語動詞>",
+        "sentence_2": "少年は<主格>学校で<場所格>友達と野球を<対象格>しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1243,
+        "sentence_1": "丘の脇に両腕を広げた赤いシャツを着た少年。<述語動詞>",
+        "sentence_2": "少年は丘の上を走り回る飛行機のふりを<対象格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1244,
+        "sentence_1": "ローラースケートをしている間に<時間格>２人の女の子が<主格>互いにぶつかります。<述語動詞>",
+        "sentence_2": "２人の女の子が<主格>ライアンゴスリングの映画を<対象格>見ていました。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1266,
+        "sentence_1": "長い髪の２人の女性が<主格>高架下の歩道を<対象格>歩いています。<述語動詞>",
+        "sentence_2": "２人の女性が<主格>道路沿いに<場所格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1276,
+        "sentence_1": "物を<対象格>運んで<述語動詞>男性は<主格>並んで歩きます。<述語動詞>",
+        "sentence_2": "川のほとりで横に<場所格>ゆっくりとなり、<述語動詞>男たちは<主格>土手で<場所格>休みました。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1279,
+        "sentence_1": "２人の男性が<主格>電動屋外リフトに<場所格>立ちます。<述語動詞>",
+        "sentence_2": "男性は<主格>サッカー場で前後に<場所格>サッカーボールを<対象格>蹴ります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1284,
+        "sentence_1": "大人のバレリーナは<主格>子供たちに<受け手格>踊り方を<対象格>教えます。<述語動詞>",
+        "sentence_2": "バレリーナは<主格>子供のバレエを<対象格>教えています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1312,
+        "sentence_1": "ロッククライマーが<主格>急な山に<場所格>登る。<述語動詞>",
+        "sentence_2": "登山家が<主格>山に<場所格>登る<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1321,
+        "sentence_1": "男は<主格>和傘で<手段・道具格>ボールのバランスを<対象格>とります。<述語動詞>",
+        "sentence_2": "男は<主格>傘を<対象格>持っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1326,
+        "sentence_1": "茶色と白の犬は<主格>雪の中で<場格>遊んでいます。<述語動詞>",
+        "sentence_2": "雪の中の犬。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1336,
+        "sentence_1": "女性が<主格>冷蔵庫で<場所格>アイスクリームを<対象格>見ています。<述語動詞>",
+        "sentence_2": "アイスクリームを食べている男。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1390,
+        "sentence_1": "バッグでいっぱいのショッピングカートを持つ４人。<述語動詞>",
+        "sentence_2": "人々のグループが<主格>食料品の買い物を<対象格>した<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1400,
+        "sentence_1": "滝の前にいる黒い犬。<述語動詞>",
+        "sentence_2": "犬が<主格>滝の前に<時間格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1410,
+        "sentence_1": "リラックスしてお互いの会話を楽しんでいる公園の若い友人。<述語動詞>",
+        "sentence_2": "声を<対象格>出し、<述語動詞>友達は<主格>言葉を<対象格>使っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1441,
+        "sentence_1": "３人の若い男性が<主格>教室を<対象格>掃除しています。<述語動詞>",
+        "sentence_2": "拘留中の３人の若者が<主格>教室を<対象格>掃除します。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1467,
+        "sentence_1": "ブルージーンズと黒のシャツを着た男性は、パティオで折りたたみ椅子の外に座っている白いパンツを着た男性と<相手格>話しています。<述語動詞>",
+        "sentence_2": "ジーンズを着た男<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1484,
+        "sentence_1": "ネイティブアメリカンの服装を着た男の前に<対象格>２匹の犬が<主格>座っています。<述語動詞>",
+        "sentence_2": "犬は<主格>ネイティブアメリカンの所有者のそばに<場所格>座っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1487,
+        "sentence_1": "大きな船に向かって歩いているカジュアルな服装の人々のグループ。<述語動詞>",
+        "sentence_2": "彼らは<主格>潜水艦の航海を<対象格>行っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1526,
+        "sentence_1": "番号９１６は、<主格>彼がレースに勝つことを<対象格>望んでいます。<述語動詞>",
+        "sentence_2": "人が<主格>レースに<対象格>出場しています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1552,
+        "sentence_1": "顕微鏡を<対象格>使って、<述語動詞>このグループは<主格>清潔な白いスクラブ、ヘアネット、フェイスマスクを<対象格>着用しています。<述語動詞>",
+        "sentence_2": "一部の人々は<主格>顕微鏡を通して何かを<対象格>見ています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1608,
+        "sentence_1": "緑の女性は<主格>腰に手を当てて立っています。<述語動詞>",
+        "sentence_2": "女性は<主格>緑の服を<対象格>着ています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1634,
+        "sentence_1": "１匹は<主格>丸太を<対象格>飛び越え、<述語動詞>茶色と白の２匹の犬。１匹は<主格>草の中を<対象格>走ります。<述語動詞>",
+        "sentence_2": "犬は<主格>毛布の上に<対象格>横たわっています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1639,
+        "sentence_1": "黒のシャツと黒のショートパンツを着た若い女性は、<主格>ビーチで空中で<場所格>ジャンプします。<述語動詞>",
+        "sentence_2": "ビーチで運動している女性。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1734,
+        "sentence_1": "茶色の髪の少女が<主格>花から<起点格>花びらを<対象格>吹き飛ばしています。<述語動詞>",
+        "sentence_2": "小さな女の子が<主格>花で<手段・道具格>遊んでいます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1769,
+        "sentence_1": "新しいおもちゃに溢れている子供を眺めながら、パーティーに参加する子供たち。<述語動詞>",
+        "sentence_2": "子供たちは<主格>パーティーです<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1818,
+        "sentence_1": "小さな女の子が<主格>岩を<対象格>調べ、<述語動詞>晴れた日に、<時間格>緑豊かな野原で、友人が<主格>別の方向に<場所格>出かけます。<述語動詞>",
+        "sentence_2": "女の子は<主格>外の岩を<対象格>見ます<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1853,
+        "sentence_1": "はげかかった庭の老人は、<主格>太極拳で見られるようなポーズを<対象格>とっています。<述語動詞>",
+        "sentence_2": "男が<主格>外に<場所格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1854,
+        "sentence_1": "サンダルを履いた２人の女性、１人は<主格>緑の帽子を<対象格>かぶっていて、<述語動詞>両方とも<相手格>もう１人の女性のドレスストラップを<対象格>結んでいる<述語動詞>",
+        "sentence_2": "一人が<主格>別の服を<対象格>修正します。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1865,
+        "sentence_1": "犬ぞりレースの参加者が<主格>見物人を<対象格>追い越します。<述語動詞>",
+        "sentence_2": "人々は<主格>犬のレースを<対象格>見ています<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1901,
+        "sentence_1": "土砂降りの雨の中、２人の女の子と１人の女性が<主格>立っています。<述語動詞>",
+        "sentence_2": "女性は<主格>テニスを<対象格>しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1906,
+        "sentence_1": "１人の男性が<主格>ＳｐｏｒｔｓＣｅｎｔｅｒセットで<場格>ミニゴールドを<対象格>プレイし、<述語動詞>他の２人が<主格>観察しています。<述語動詞>",
+        "sentence_2": "男は<主格>屋内に<場所格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 1913,
+        "sentence_1": "ボールを<対象格>口に<部位格>入れて<述語動詞>茶色の耳を持つ白い犬は、<主格>砂利道を<対象格>走ります。<述語動詞>",
+        "sentence_2": "骨を<対象格>口に<部位格>入れて<述語動詞>犬は、<主格>土道を<対象格>走ります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 1916,
+        "sentence_1": "森の中を走っている２人の<数量格>マラソンランナー。<述語動詞>",
+        "sentence_2": "森の中に<場所格>人が<主格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 1967,
+        "sentence_1": "困惑したように見える黒い服を着た女性と、<相手格>彼女を助ける赤いジャケットを着た女性。<述語動詞>",
+        "sentence_2": "女性が<主格>むしゃむしゃしています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2024,
+        "sentence_1": "男と女は<主格>両方とも<相手格>笑っている。<述語動詞>",
+        "sentence_2": "男と女が<主格>時計を<対象格>見て<述語動詞>眉を<対象格>ひそめています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2062,
+        "sentence_1": "男は<主格>華やかな衣装パーティーで<場格>スピーチを<対象格>します。<述語動詞>",
+        "sentence_2": "パブリックスピーカーは<主格>ハロウィーンに<対象格>抗議しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2068,
+        "sentence_1": "これは、<主格>暗闇の中で車両の診断をしている人の写真です。<述語動詞>",
+        "sentence_2": "誰かが<主格>車を<対象格>見ています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2105,
+        "sentence_1": "少女は、<主格>水の上のロープを<対象格>握ります。<述語動詞>",
+        "sentence_2": "女の子は<主格>水の上に<対象格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2124,
+        "sentence_1": "２人のアジアの子供、男の子と女の子、カメラを正面から見ている女の子と顔を作る男の子。<述語動詞>",
+        "sentence_2": "子供たちは<主格>モデルの写真を<対象格>撮っている<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2159,
+        "sentence_1": "緑のニット帽をかぶった女の子がそりを押す準備ができており、小さな男の子が<主格>後ろに<場所格>います。<述語動詞>",
+        "sentence_2": "緑のニット帽をかぶった悲しい少女は、そりを押す準備ができており、小さな男の子が<主格>後ろに<場所格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2218,
+        "sentence_1": "小さな子供に銃の使い方を示す男女。<述語動詞>",
+        "sentence_2": "子供に自分や他の人を殺す方法を示す親<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2221,
+        "sentence_1": "セメントトラックは、<主格>路上で<場所格>セメントを<対象格>注ぐ。<述語動詞>",
+        "sentence_2": "トラックは<主格>外に<場所格>あります<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2236,
+        "sentence_1": "街角の小さなアイスクリームカートの後ろに立っている男。<述語動詞>",
+        "sentence_2": "男は<主格>中に<場所格>いる<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2239,
+        "sentence_1": "土で遊んでいる間、小さな男の子は<主格>微笑んでいます。<述語動詞>",
+        "sentence_2": "人間の笑顔。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2244,
+        "sentence_1": "通りに立っている間に大きなカメラを使用している女性。<述語動詞>",
+        "sentence_2": "女性が<主格>両手で<手段・道具格>傘を<対象格>持っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2248,
+        "sentence_1": "３人、１人は床に座ってギターを<対象格>弾き、<述語動詞>２人は<主格>ソファで<手段・道具格>ゲームを<対象格>します。<述語動詞>",
+        "sentence_2": "数人が<主格>ビーチに<場所格>座っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2324,
+        "sentence_1": "茶色の犬が<主格>岩から<起点格>水に<対象格>飛び込みます。<述語動詞>",
+        "sentence_2": "犬が<主格>外に<場所格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2384,
+        "sentence_1": "２人の人が座って前で話している間、男性が<主格>コンピューターで<手段・道具格>作業しています。<述語動詞>",
+        "sentence_2": "２人が座ってビジネスについて話している間、男性は<主格>コンピューターで<手段・道具格>作業します。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2387,
+        "sentence_1": "建物に向かい、制服を着た男のポスターの下にあるベンチに座っている女性。<述語動詞>",
+        "sentence_2": "座っている人<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2466,
+        "sentence_1": "身を<対象格>かがめて、<述語動詞>ヒツジの飼い主は<主格>牧羊犬が近づいている間、動物に餌を与える準備を<対象格>しています。<述語動詞>",
+        "sentence_2": "動物を養う準備をしている農民。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2469,
+        "sentence_1": "黒いシャツを着た男性が<主格>赤ちゃんを<対象格>抱き、<述語動詞>青いシャツを着た人が<主格>赤ちゃんに<対象格>直面します。<述語動詞>",
+        "sentence_2": "公園のベンチに<場所格>一人で<数量格>座って、<述語動詞>男は<主格>腕を<対象格>組んでいます。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2555,
+        "sentence_1": "青い長袖のシャツを着て、ヘアネットを着ている女性。<述語動詞>",
+        "sentence_2": "女性は<主格>彼女の頭の上に<部位格>何かを<対象格>持っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2558,
+        "sentence_1": "遊び場の橋を<対象格>渡って<述語動詞>緑のＴシャツを着た子供は、<主格>最初の一歩を<対象格>踏み出します。<述語動詞>",
+        "sentence_2": "遊び場の子供。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2589,
+        "sentence_1": "ショートパンツの３人のインド人の男の子が<主格>互いに遊びます。<述語動詞>",
+        "sentence_2": "３人の女の子が<主格>足の爪を<対象格>塗ります。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2591,
+        "sentence_1": "海岸でボートに乗っている人。<述語動詞>",
+        "sentence_2": "男が<主格>海岸で<場所格>ボートに<対象格>乗っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2613,
+        "sentence_1": "群衆の前のフィールドのフットボール選手。<述語動詞>",
+        "sentence_2": "群衆が<主格>います<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2616,
+        "sentence_1": "ビーチで青とピンクの花柄のネクタイフロントビキニを着て、旗竿を砂に入れる準備ができている金髪の女性。<述語動詞>",
+        "sentence_2": "ビキニの人<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2641,
+        "sentence_1": "大きな日焼けした犬は、<主格>屋外の吐水口から<起点格>水を<対象格>飲みます。<述語動詞>",
+        "sentence_2": "犬は<主格>外に<場所格>いて<述語動詞>のどが<主格>渇いています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2696,
+        "sentence_1": "緑と白のカーテンが<主格>ある部屋に座っている２人の<数量格>男。<述語動詞>",
+        "sentence_2": "二人の男が<主格>ゴルフを<対象格>しています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2733,
+        "sentence_1": "犬が<主格>手を<対象格>伸ばして、<述語動詞>ボールを<対象格>口で<手段・道具格>キャッチします。<述語動詞>",
+        "sentence_2": "犬は<主格>ボールで<手段・道具格>遊んでいます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2772,
+        "sentence_1": "車椅子を押す群衆の中の年配の女性。<述語動詞>",
+        "sentence_2": "群衆の中に<対象格>６７歳の女性が<主格>います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2786,
+        "sentence_1": "女性が<主格>屋外プールを<対象格>掃除しています。<述語動詞>",
+        "sentence_2": "プールは<主格>女性によって掃除機を<対象格>かけられています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2859,
+        "sentence_1": "黒と茶色の犬が<主格>口の中に赤いボールを<対象格>キャッチしようとします。<述語動詞>",
+        "sentence_2": "動物が<主格>ボールで<手段・道具格>遊んでいます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2866,
+        "sentence_1": "他の男性がボールを撃ち込むのをブロックしようとしている<相手格>男性。<述語動詞>",
+        "sentence_2": "男は<主格>ボールの近くに<場所格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 2898,
+        "sentence_1": "３人の大人の傍観者と１人の子供が<主格>歩道に<場所格>立って<述語動詞>空を<対象格>見上げています。<述語動詞>",
+        "sentence_2": "子供と彼の３人の叔母が<主格>空のスカイダイバーを<対象格>見ています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 2900,
+        "sentence_1": "ロデオで馬のコントロールを維持するのに苦労しているカウボーイ。<述語動詞>",
+        "sentence_2": "チーズは<主格>水から<起点格>作られています<受動態>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2916,
+        "sentence_1": "２人の子供が建物の近くの歩道で通りを<対象格>駆け上がります。<述語動詞>",
+        "sentence_2": "子供たちは<主格>中に<場所格>います。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 2981,
+        "sentence_1": "白いシャツを着た男が<主格>ドラムを<対象格>叩いています。<述語動詞>",
+        "sentence_2": "バンドの男性が<主格>ドラムを<対象格>演奏しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3008,
+        "sentence_1": "ネクタイをしている子供が<主格>階段から<起点格>飛び降ります。<述語動詞>",
+        "sentence_2": "子供が<主格>階段から<起点格>水たまりに<場所格>飛び込んでいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3017,
+        "sentence_1": "黄色のシャツのジェスチャーで<手段・道具格>笑顔の女性。<述語動詞>",
+        "sentence_2": "女性が<主格>身振りで<場格>示していた<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3032,
+        "sentence_1": "黒いローブを着たアジア人男性が、<主格>煙が出てくる茂みのそばに<場所格>小さな扇子を<対象格>掲げています。<述語動詞>",
+        "sentence_2": "ローブを着たアジア人男性。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3036,
+        "sentence_1": "黒い服を着た自転車に乗った男は、まるで橋の上で宙に浮いているように見えます。<述語動詞>",
+        "sentence_2": "道を歩いている男が<主格>鳥を<対象格>見る<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3044,
+        "sentence_1": "女子バスケットボールの試合で<場格>彼女は<主格>ファウルショットを<対象格>撃っている<述語動詞>",
+        "sentence_2": "女の子が<主格>踊っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3063,
+        "sentence_1": "２人の女性と１人の男性が、<主格>歩道にいる大勢の人々の前でスポーティな赤いコンバーチブルを<対象格>着用しています。<述語動詞>",
+        "sentence_2": "人々は<主格>車を<対象格>テスト運転しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3094,
+        "sentence_1": "１人は<主格>犬を<対象格>散歩させ、<述語動詞>２人の女性。もう１人は<主格>ベビーカーを<対象格>押します。<述語動詞>",
+        "sentence_2": "女性は<主格>歩道を<対象格>歩いています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3127,
+        "sentence_1": "子供は<主格>ビーチで日光浴をして一日を過ごした母親のひざの上で<数量格>休みます。<述語動詞>",
+        "sentence_2": "子供は<主格>外で<場所格>遊んだ。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3138,
+        "sentence_1": "公園で踊るズボンの男。<述語動詞>",
+        "sentence_2": "男が<主格>外に<場所格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3141,
+        "sentence_1": "ライバルの女子バスケットボールチームは、<主格>屋内アリーナで<場所格>観客の前で<手段・道具格>試合を<対象格>しています。<述語動詞>",
+        "sentence_2": "２つの女子バスケットボールチームが<主格>建物内で<場所格>試合を<対象格>しています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3158,
+        "sentence_1": "若い男が<主格>手袋を<対象格>使用して、<述語動詞>ワイヤーの入ったデバイスを<対象格>制御しています。<述語動詞>",
+        "sentence_2": "手袋をはめた若い男が<主格>有線デバイスで<場格>作業しています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3185,
+        "sentence_1": "屋外トレイルでウォーターパックとショートパンツを着た男。<述語動詞>",
+        "sentence_2": "男が<主格>立っています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3226,
+        "sentence_1": "赤い縞模様の服の男の子を保持しているストライプのシャツの若い女性<述語動詞>",
+        "sentence_2": "フルーツバスケットを保持している若い女性。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3269,
+        "sentence_1": "おもちゃを<対象格>口に<部位格>入れて<述語動詞>黒い犬が<主格>緑の芝生を<対象格>走っています。<述語動詞>",
+        "sentence_2": "おもちゃを<対象格>運んで<述語動詞>黒い犬が<主格>草の中を<対象格>走ります。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3288,
+        "sentence_1": "１人の男性は上半身裸で、他の２人の男性は建設作業中です。<述語動詞>",
+        "sentence_2": "３人の男性が<主格>エベレスト山に<場所格>登っています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3302,
+        "sentence_1": "ここには<対象格>画像が<主格>ありません。<述語動詞>",
+        "sentence_2": "画像ではなく単一の色のみが<主格>表示されます。<受動態>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3304,
+        "sentence_1": "マニュアルを<対象格>読んで<述語動詞>ひげを持つ若い男は、<主格>ベッドの端に<場所格>座っています。<述語動詞>",
+        "sentence_2": "彼は<主格>何かを<対象格>学んでいます。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3314,
+        "sentence_1": "刺青のボクサーは、<主格>ボクシングアリーナで<場所格>相手を<対象格>パンチします。<述語動詞>",
+        "sentence_2": "ボクサーは<主格>戦いで<手段・道具格>競っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3340,
+        "sentence_1": "修道女は<主格>外で<場所格>写真を<対象格>撮っています。<述語動詞>",
+        "sentence_2": "修道女は<主格>自分撮りを<対象格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3399,
+        "sentence_1": "屋外を<対象格>走って<述語動詞>小さな子供たちは<主格>スプリンクラーを<対象格>楽しんでいます。<述語動詞>",
+        "sentence_2": "子供たちは<主格>わざと濡れています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3417,
+        "sentence_1": "青いワンピースの幼児がプラスチックの浴槽で遊んでいる間、おもちゃが<主格>彼の後ろの床に<場所格>散らばっている。<述語動詞>",
+        "sentence_2": "幼児は、<主格>家族のクリスマスデコレーションが入ったプラスチック容器で<場格>遊んでいます。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3436,
+        "sentence_1": "子供たちは<主格>乳鉢と<相手格>雌しべで<手段・道具格>遊んでいます<述語動詞>",
+        "sentence_2": "子供たちは<主格>サッカーを<対象格>している<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3478,
+        "sentence_1": "二人の男が<主格>鮮やかな色の路地に<場所格>立っています。<述語動詞>",
+        "sentence_2": "二人の男が<主格>路地で<場所格>情熱的にキスを<対象格>している。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3491,
+        "sentence_1": "後ろから見た黒の女性が<主格>水域の隣に<場所格>座っています。<述語動詞>",
+        "sentence_2": "女性が<主格>座ってリラックスします。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3524,
+        "sentence_1": "砂の城を建てる女性。<述語動詞>",
+        "sentence_2": "女性は<主格>雪の中で<場格>遊んでいます<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3525,
+        "sentence_1": "２人のハイカーが<主格>山の岩が多く雪に覆われた通路を<対象格>登っています。<述語動詞>",
+        "sentence_2": "二人ハイキング<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3531,
+        "sentence_1": "長い影を落とす並木道を並んで走っている男女。<述語動詞>",
+        "sentence_2": "カップルが<主格>一緒にジョギングを<対象格>します。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3538,
+        "sentence_1": "１３番は、<主格>子供のサッカーの試合中にゴールに<場所格>向かって<述語動詞>サッカーボールを<対象格>蹴ります。<述語動詞>",
+        "sentence_2": "サッカーの試合で得点しようとする<相手格>プレーヤー。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3544,
+        "sentence_1": "複数の買い物袋を持っている一部の歩行者は、<主格>舗装された通路を<対象格>歩きます。<述語動詞>",
+        "sentence_2": "歩道を歩いている人が<主格>います<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3567,
+        "sentence_1": "自転車に乗っている３人の警官が、<主格>大統領のために道路が空いていることを<対象格>確認しています。<述語動詞>",
+        "sentence_2": "３人の警官が<主格>自転車で<手段・道具格>通りを<対象格>パトロールします。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3568,
+        "sentence_1": "自転車で<手段・道具格>２人の男性が<主格>レースで<手段・道具格>競います。<述語動詞>",
+        "sentence_2": "人々は<主格>自転車に<対象格>乗っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3596,
+        "sentence_1": "男は<主格>カーディーラーで<手段・道具格>新聞を<対象格>読んでいます。<述語動詞>",
+        "sentence_2": "男は<主格>カーディーラーに<対象格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3605,
+        "sentence_1": "花木がある公園で<場所格>男女が<主格>ボクシングを<対象格>しています。<述語動詞>",
+        "sentence_2": "男と女は<主格>戦いのために練習しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3613,
+        "sentence_1": "アンヘレス市で開催された世界博覧会イベント中に顧客にドーナツを販売する男性<述語動詞>",
+        "sentence_2": "世界の展示会イベントで顧客にドーナツを売っている男性が、<主格>彼の後ろに並んで待っている。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3645,
+        "sentence_1": "カメラを見ている２人の女性と<相手格>離れている男性。<述語動詞>",
+        "sentence_2": "人々のグループ。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3696,
+        "sentence_1": "女性が歌ってマイクに向かって演奏し、<述語動詞>緑色の縞模様のショートパンツの男性が<主格>ハンドドラムを<対象格>演奏します<述語動詞>",
+        "sentence_2": "女性が<主格>ピアノを<対象格>弾く<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3723,
+        "sentence_1": "都市部でオレンジ色のローブを着ている年上のアジア人。<述語動詞>",
+        "sentence_2": "男は<主格>都市に<場所格>います。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3744,
+        "sentence_1": "男は<主格>木の近くの芝生とホースに<場所格>横たわっています。<述語動詞>",
+        "sentence_2": "男が<主格>外で<場所格>昼寝を<対象格>しています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3837,
+        "sentence_1": "カメラに<受け手格>背を<対象格>向けて<述語動詞>ジーンズと白いシャツを着た男が、<主格>岩の近くに<場所格>立っています。<述語動詞>",
+        "sentence_2": "男が<主格>岩の頂上に<場所格>いて、<述語動詞>景色を<対象格>眺めています。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3844,
+        "sentence_1": "女性が<主格>旗を持っている男の子と<相手格>歩いています。<述語動詞>",
+        "sentence_2": "女性は<主格>子供とプールで<場所格>泳いでいます。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3852,
+        "sentence_1": "ヘルメットとライディングスーツを着た人が、<主格>埃っぽい土地で<場所格>四輪車に<対象格>乗っています。<述語動詞>",
+        "sentence_2": "人が<主格>土地の区画で<場所格>四輪車に<対象格>乗っています。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3871,
+        "sentence_1": "５人の男の子が<主格>野球を<対象格>しています。<述語動詞>",
+        "sentence_2": "外で野球をしている少年たち。<述語動詞>",
+        "true_label": "entailment",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "entailment"
+    },
+    {
+        "sentence_pair_id": 3876,
+        "sentence_1": "白いシャツと緑のショートパンツを<対象格>着て、<述語動詞>美しい水域の岩の上に座っている女性。<述語動詞>",
+        "sentence_2": "女性は<主格>裸足です。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3896,
+        "sentence_1": "数人のランナーが<主格>ロードレースに<対象格>参加します。<述語動詞>",
+        "sentence_2": "数人のランナーが<主格>インドアロードレースで<場格>競います。<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "contradiction",
+        "nodeep_pred": "neutral"
+    },
+    {
+        "sentence_pair_id": 3897,
+        "sentence_1": "茶色のジャーマン・シェパード犬は<主格>棒で<手段・道具格>遊んでいます。<述語動詞>",
+        "sentence_2": "犬は<主格>犬のベッドで<手段・道具格>寝ています。<述語動詞>",
+        "true_label": "contradiction",
+        "withdeep_pred": "neutral",
+        "nodeep_pred": "contradiction"
+    },
+    {
+        "sentence_pair_id": 3903,
+        "sentence_1": "長い茶色の髪の２人の女の子が<主格>床に<場所格>座り、<述語動詞>背後の窓からは<起点格>町が<主格>見えます。<述語動詞>",
+        "sentence_2": "ストレートの長い茶色の髪の２人の女の子が<主格>床に<場所格>座る<述語動詞>",
+        "true_label": "neutral",
+        "withdeep_pred": "entailment",
+        "nodeep_pred": "neutral"
+    }
+]

@@ -1,0 +1,48 @@
+               precision    recall  f1-score   support
+
+contradiction       0.77      0.85      0.81       734
+   entailment       0.74      0.75      0.74       353
+      neutral       0.85      0.81      0.83      1347
+
+     accuracy                           0.81      2434
+    macro avg       0.79      0.80      0.79      2434
+ weighted avg       0.81      0.81      0.81      2434
+
+[[ 622    5  107]
+ [  11  263   79]
+ [ 170   88 1089]]
+               precision    recall  f1-score   support
+
+contradiction       0.77      0.85      0.81       734
+   entailment       0.74      0.75      0.74       353
+      neutral       0.85      0.81      0.83      1347
+
+     accuracy                           0.81      2434
+    macro avg       0.79      0.80      0.79      2434
+ weighted avg       0.81      0.81      0.81      2434
+
+[[ 622    5  107]
+ [  11  263   79]
+ [ 170   88 1089]]
+
+
+number_of_both_true
+1687
+number_of_both_false
+302
+number_of_withdeep_only_true
+158
+number_of_nodeep_only_true
+287
+
+
+withdeep_only_true
+[[ 0  0 59]
+ [ 0  0  3]
+ [37 59  0]]
+
+
+nodeep_only_true
+[[  0   0  24]
+ [  1   0  97]
+ [154  11   0]]
